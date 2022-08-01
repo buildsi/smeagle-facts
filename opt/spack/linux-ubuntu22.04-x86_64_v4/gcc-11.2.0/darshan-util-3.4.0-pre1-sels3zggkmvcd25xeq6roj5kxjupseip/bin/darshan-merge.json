@@ -1,0 +1,2334 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-x86_64_v4/gcc-11.2.0/darshan-util-3.4.0-pre1-sels3zggkmvcd25xeq6roj5kxjupseip/bin/darshan-merge",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "stderr",
+                    "location": "var",
+                    "type": "649c9bf448a28b392169dffe3bf8eb60",
+                    "direction": "import"
+                },
+                {
+                    "name": "optarg",
+                    "location": "var",
+                    "type": "bbfb51475d62020d97bcfde52bbbbbb1",
+                    "direction": "import"
+                },
+                {
+                    "name": "optind",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "mod_logutils",
+                    "location": "var",
+                    "type": "1ef43d9dd1ef4d0f8d775863a4f94d61",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "darshan_log_put_namehash",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "4279afafe488b343ef21205c8a7b6ed5",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_put_mounts",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "41c8c68b416793021be703587854dd44",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_put_exe",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7e23b4d1fe940040810be7a419c68aff",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "unlink",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_put_job",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "bfa8452347ee5581a22e90e01e539faf",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_create",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "7da8195b7f3e1dfe398e664ef5422045",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_get_namehash",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "a1466178e596ec3ecd67cc1b7a19bea9",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_get_mounts",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "ffe8a56425ef72cf52eb85db850c0fcd",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "e4261c53eaa200fc9e93d664526ff776",
+                        "location": "%rdx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_get_exe",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7e23b4d1fe940040810be7a419c68aff",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_get_job",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "bfa8452347ee5581a22e90e01e539faf",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_close",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3aeb958f4b4a9b811df2ab8db8ef3bf9",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "darshan_log_open",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "5c02f0f4dabfe8654d0af0bd035e0c14",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strtol",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "ba5ed3eb9d0e15764c67f4ed932fe059"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getopt_long",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "1b4f31c5a3867ad1b06e47a3a721e42a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdx",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "3c6edb3d70366c224d8f9bf149cb9520",
+                        "location": "%rcx",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "e4261c53eaa200fc9e93d664526ff776",
+                        "location": "%r8",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "208f680a325a1b176fa8265b64603ffa": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_ptr"
+        },
+        "936ece898aebecd227466b04e10bd41c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_end"
+        },
+        "864aadc300ae287e89141b12d119f8c3": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_base"
+        },
+        "a658c5d1e8a0bfabf7a49dffc8574ffb": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_base"
+        },
+        "458675b579f2f1e9a663349bc8d191d7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_ptr"
+        },
+        "8cf7633a2a6b8666aab4ce37912a5e32": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_end"
+        },
+        "698869170c484a3c57ee11b1246811a6": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_buf_base"
+        },
+        "f451f9d3e3ab24784d3ca0454bd1c464": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_buf_end"
+        },
+        "24e0976484f03f5e4d7d5987c59e9753": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_save_base"
+        },
+        "31fc9da88da9b49a9a8b6c9bf5a4e281": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_backup_base"
+        },
+        "d95b083e5fad4fe4a6b1c11b04ccf353": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_save_end"
+        },
+        "22488af440eaee5f0caec25a47ce367e": {
+            "name": "_IO_marker",
+            "size": 0,
+            "class": "Struct"
+        },
+        "d76b1250bb5a53e749731d84739a8466": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "22488af440eaee5f0caec25a47ce367e"
+            },
+            "name": "_markers"
+        },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "668dc562a865d56b0091e306b6b9592f": {
+            "name": "__off_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "0eda2e2e55410d273f7dc06c4b1a527d": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer"
+        },
+        "e5cd6cd12a33c9993ba99d95db8f4ce7": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "a25a51ac1cc3ad89ab06a599c1f895c8": {
+            "class": "Array",
+            "name": "_shortbuf",
+            "size": 1,
+            "counts": [
+                1
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "094f321fd5bb8d08c33f220ea53625d9": {
+            "type": "unknown",
+            "class": "Unknown"
+        },
+        "e2cdb1d971a93ab9269414059960fd7b": {
+            "name": "_IO_lock_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unknown",
+                "class": "Unknown"
+            },
+            "size": null
+        },
+        "17e707171a89e5bff0aab092629f7530": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "e2cdb1d971a93ab9269414059960fd7b"
+            },
+            "name": "_lock"
+        },
+        "955f5e0c4587e6d0a6a43bfc05f98306": {
+            "name": "__off64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "cc28a667e7092e7be61666bf3838975f": {
+            "name": "_IO_codecvt",
+            "size": 0,
+            "class": "Struct"
+        },
+        "967dfa9a0c7f27093b358de4347d9d88": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "cc28a667e7092e7be61666bf3838975f"
+            },
+            "name": "_codecvt"
+        },
+        "9e8e6f4c30e7db1de823a84bfce74a67": {
+            "name": "_IO_wide_data",
+            "size": 0,
+            "class": "Struct"
+        },
+        "b106ac0bd0ddf1a8d824c32b15459649": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9e8e6f4c30e7db1de823a84bfce74a67"
+            },
+            "name": "_wide_data"
+        },
+        "e4515263473f490efd9b3fe942b105c5": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "_freeres_list"
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "7dffe8c3b6ce97c68b5bb43e6288a067": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "_freeres_buf"
+        },
+        "18a1655c0d6e5784b11d64496b967364": {
+            "name": "size_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "4de929c19798fca4d6f2ae9f464e33f6": {
+            "class": "Array",
+            "name": "_unused2",
+            "size": 20,
+            "counts": [
+                20
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "d77ba7256a12f19b99771e3950e66e63": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "208f680a325a1b176fa8265b64603ffa",
+                    "offset": 8
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "936ece898aebecd227466b04e10bd41c",
+                    "offset": 16
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "864aadc300ae287e89141b12d119f8c3",
+                    "offset": 24
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                    "offset": 32
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "458675b579f2f1e9a663349bc8d191d7",
+                    "offset": 40
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                    "offset": 48
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "698869170c484a3c57ee11b1246811a6",
+                    "offset": 56
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                    "offset": 64
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "24e0976484f03f5e4d7d5987c59e9753",
+                    "offset": 72
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                    "offset": 80
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                    "offset": 88
+                },
+                {
+                    "name": "_markers",
+                    "type": "d76b1250bb5a53e749731d84739a8466",
+                    "offset": 96
+                },
+                {
+                    "name": "_chain",
+                    "type": "Recursive",
+                    "offset": 104
+                },
+                {
+                    "name": "_fileno",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 112
+                },
+                {
+                    "name": "_flags2",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 116
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "668dc562a865d56b0091e306b6b9592f",
+                    "offset": 120
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                    "offset": 128
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "offset": 130
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                    "offset": 131
+                },
+                {
+                    "name": "_lock",
+                    "type": "17e707171a89e5bff0aab092629f7530",
+                    "offset": 136
+                },
+                {
+                    "name": "_offset",
+                    "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                    "offset": 144
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "967dfa9a0c7f27093b358de4347d9d88",
+                    "offset": 152
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                    "offset": 160
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "e4515263473f490efd9b3fe942b105c5",
+                    "offset": 168
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                    "offset": 176
+                },
+                {
+                    "name": "__pad5",
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "offset": 184
+                },
+                {
+                    "name": "_mode",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 192
+                },
+                {
+                    "name": "_unused2",
+                    "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                    "offset": 196
+                }
+            ]
+        },
+        "b1421deb26fcdcf161a0cbc468ab2fc0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d77ba7256a12f19b99771e3950e66e63"
+            },
+            "name": "_chain"
+        },
+        "0cd1e4ff9298d5b3c5a6003eeaa6c79e": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "208f680a325a1b176fa8265b64603ffa",
+                    "offset": 8
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "936ece898aebecd227466b04e10bd41c",
+                    "offset": 16
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "864aadc300ae287e89141b12d119f8c3",
+                    "offset": 24
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                    "offset": 32
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "458675b579f2f1e9a663349bc8d191d7",
+                    "offset": 40
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                    "offset": 48
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "698869170c484a3c57ee11b1246811a6",
+                    "offset": 56
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                    "offset": 64
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "24e0976484f03f5e4d7d5987c59e9753",
+                    "offset": 72
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                    "offset": 80
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                    "offset": 88
+                },
+                {
+                    "name": "_markers",
+                    "type": "d76b1250bb5a53e749731d84739a8466",
+                    "offset": 96
+                },
+                {
+                    "name": "_chain",
+                    "type": "b1421deb26fcdcf161a0cbc468ab2fc0",
+                    "offset": 104
+                },
+                {
+                    "name": "_fileno",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 112
+                },
+                {
+                    "name": "_flags2",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 116
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "668dc562a865d56b0091e306b6b9592f",
+                    "offset": 120
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                    "offset": 128
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "offset": 130
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                    "offset": 131
+                },
+                {
+                    "name": "_lock",
+                    "type": "17e707171a89e5bff0aab092629f7530",
+                    "offset": 136
+                },
+                {
+                    "name": "_offset",
+                    "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                    "offset": 144
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "967dfa9a0c7f27093b358de4347d9d88",
+                    "offset": 152
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                    "offset": 160
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "e4515263473f490efd9b3fe942b105c5",
+                    "offset": 168
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                    "offset": 176
+                },
+                {
+                    "name": "__pad5",
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "offset": 184
+                },
+                {
+                    "name": "_mode",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 192
+                },
+                {
+                    "name": "_unused2",
+                    "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                    "offset": 196
+                }
+            ]
+        },
+        "49e111b085539ceb01a107b9de281a66": {
+            "name": "FILE",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "_IO_FILE",
+                "size": 216,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "_flags",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 0
+                    },
+                    {
+                        "name": "_IO_read_ptr",
+                        "type": "208f680a325a1b176fa8265b64603ffa",
+                        "offset": 8
+                    },
+                    {
+                        "name": "_IO_read_end",
+                        "type": "936ece898aebecd227466b04e10bd41c",
+                        "offset": 16
+                    },
+                    {
+                        "name": "_IO_read_base",
+                        "type": "864aadc300ae287e89141b12d119f8c3",
+                        "offset": 24
+                    },
+                    {
+                        "name": "_IO_write_base",
+                        "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                        "offset": 32
+                    },
+                    {
+                        "name": "_IO_write_ptr",
+                        "type": "458675b579f2f1e9a663349bc8d191d7",
+                        "offset": 40
+                    },
+                    {
+                        "name": "_IO_write_end",
+                        "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                        "offset": 48
+                    },
+                    {
+                        "name": "_IO_buf_base",
+                        "type": "698869170c484a3c57ee11b1246811a6",
+                        "offset": 56
+                    },
+                    {
+                        "name": "_IO_buf_end",
+                        "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                        "offset": 64
+                    },
+                    {
+                        "name": "_IO_save_base",
+                        "type": "24e0976484f03f5e4d7d5987c59e9753",
+                        "offset": 72
+                    },
+                    {
+                        "name": "_IO_backup_base",
+                        "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                        "offset": 80
+                    },
+                    {
+                        "name": "_IO_save_end",
+                        "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                        "offset": 88
+                    },
+                    {
+                        "name": "_markers",
+                        "type": "d76b1250bb5a53e749731d84739a8466",
+                        "offset": 96
+                    },
+                    {
+                        "name": "_chain",
+                        "type": "b1421deb26fcdcf161a0cbc468ab2fc0",
+                        "offset": 104
+                    },
+                    {
+                        "name": "_fileno",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 112
+                    },
+                    {
+                        "name": "_flags2",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 116
+                    },
+                    {
+                        "name": "_old_offset",
+                        "type": "668dc562a865d56b0091e306b6b9592f",
+                        "offset": 120
+                    },
+                    {
+                        "name": "_cur_column",
+                        "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                        "offset": 128
+                    },
+                    {
+                        "name": "_vtable_offset",
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "offset": 130
+                    },
+                    {
+                        "name": "_shortbuf",
+                        "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                        "offset": 131
+                    },
+                    {
+                        "name": "_lock",
+                        "type": "17e707171a89e5bff0aab092629f7530",
+                        "offset": 136
+                    },
+                    {
+                        "name": "_offset",
+                        "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                        "offset": 144
+                    },
+                    {
+                        "name": "_codecvt",
+                        "type": "967dfa9a0c7f27093b358de4347d9d88",
+                        "offset": 152
+                    },
+                    {
+                        "name": "_wide_data",
+                        "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                        "offset": 160
+                    },
+                    {
+                        "name": "_freeres_list",
+                        "type": "e4515263473f490efd9b3fe942b105c5",
+                        "offset": 168
+                    },
+                    {
+                        "name": "_freeres_buf",
+                        "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                        "offset": 176
+                    },
+                    {
+                        "name": "__pad5",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "offset": 184
+                    },
+                    {
+                        "name": "_mode",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 192
+                    },
+                    {
+                        "name": "_unused2",
+                        "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                        "offset": 196
+                    }
+                ]
+            },
+            "size": 216
+        },
+        "649c9bf448a28b392169dffe3bf8eb60": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "name": "stderr"
+        },
+        "bbfb51475d62020d97bcfde52bbbbbb1": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "optarg"
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "8ba7f8928ba5855fabc4c1165d311c8e": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_get_record"
+        },
+        "ff676063e584f05599df97c41db21c7d": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_put_record"
+        },
+        "b0cc38274c824ea3e8ea23e67eeeb87c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_print_record"
+        },
+        "8a6352d5637e24e15b516f4635e1cdf9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_print_description"
+        },
+        "197a6a07c4491340e3630aeb8c54ea69": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_print_diff"
+        },
+        "9f7a5d8f2cfe75f19106f26eff683fba": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "log_agg_records"
+        },
+        "7379f82cf5da46c333bad798c885913b": {
+            "name": "darshan_mod_logutil_funcs",
+            "size": 48,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "log_get_record",
+                    "type": "8ba7f8928ba5855fabc4c1165d311c8e",
+                    "offset": 0
+                },
+                {
+                    "name": "log_put_record",
+                    "type": "ff676063e584f05599df97c41db21c7d",
+                    "offset": 8
+                },
+                {
+                    "name": "log_print_record",
+                    "type": "b0cc38274c824ea3e8ea23e67eeeb87c",
+                    "offset": 16
+                },
+                {
+                    "name": "log_print_description",
+                    "type": "8a6352d5637e24e15b516f4635e1cdf9",
+                    "offset": 24
+                },
+                {
+                    "name": "log_print_diff",
+                    "type": "197a6a07c4491340e3630aeb8c54ea69",
+                    "offset": 32
+                },
+                {
+                    "name": "log_agg_records",
+                    "type": "9f7a5d8f2cfe75f19106f26eff683fba",
+                    "offset": 40
+                }
+            ]
+        },
+        "3db9498765d04a43c1002789daa29579": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7379f82cf5da46c333bad798c885913b"
+            }
+        },
+        "1ef43d9dd1ef4d0f8d775863a4f94d61": {
+            "class": "Array",
+            "name": "mod_logutils",
+            "size": 0,
+            "counts": [],
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "7379f82cf5da46c333bad798c885913b"
+                }
+            }
+        },
+        "7157aee557785e64b0ade31bd295b923": {
+            "class": "Array",
+            "name": "version",
+            "size": 8,
+            "counts": [
+                8
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "23c8dbaade46c0452e1e8a42755e7087": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "7da8195b7f3e1dfe398e664ef5422045": {
+            "name": "darshan_comp_type",
+            "size": 4,
+            "type": "23c8dbaade46c0452e1e8a42755e7087",
+            "class": "Enum",
+            "fields": [
+                {
+                    "name": "DARSHAN_ZLIB_COMP",
+                    "value": 0
+                },
+                {
+                    "name": "DARSHAN_BZIP2_COMP",
+                    "value": 1
+                },
+                {
+                    "name": "DARSHAN_NO_COMP",
+                    "value": 2
+                }
+            ]
+        },
+        "068afbc08ec32a7e1c6a689c7dc093b1": {
+            "name": "__uint64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "13f5d632aec2547f17afca17adffefc2": {
+            "name": "uint64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__uint64_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "long unsigned int",
+                    "size": 8,
+                    "class": "Integer"
+                },
+                "size": 8
+            },
+            "size": 8
+        },
+        "d23bbc5185bfc1799c80b234905dc7b2": {
+            "name": "darshan_log_map",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "off",
+                    "type": "13f5d632aec2547f17afca17adffefc2",
+                    "offset": 0
+                },
+                {
+                    "name": "len",
+                    "type": "13f5d632aec2547f17afca17adffefc2",
+                    "offset": 8
+                }
+            ]
+        },
+        "2aacd1994765db91e9f593660744266b": {
+            "class": "Array",
+            "name": "mod_map",
+            "size": 256,
+            "counts": [
+                16
+            ],
+            "underlying_type": {
+                "name": "darshan_log_map",
+                "size": 16,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "off",
+                        "type": "13f5d632aec2547f17afca17adffefc2",
+                        "offset": 0
+                    },
+                    {
+                        "name": "len",
+                        "type": "13f5d632aec2547f17afca17adffefc2",
+                        "offset": 8
+                    }
+                ]
+            }
+        },
+        "b9f8afd0a3df23a8f4eb8f4953f23b74": {
+            "name": "__uint32_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "453551e3083bb521eda4f96b7068144f": {
+            "name": "uint32_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__uint32_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "unsigned int",
+                    "size": 4,
+                    "class": "Integer"
+                },
+                "size": 4
+            },
+            "size": 4
+        },
+        "d9caf7d9b261a55903c7a1ed1a19d28c": {
+            "class": "Array",
+            "name": "mod_ver",
+            "size": 64,
+            "counts": [
+                16
+            ],
+            "underlying_type": {
+                "name": "uint32_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "name": "__uint32_t",
+                    "class": "TypeDef",
+                    "underlying_type": {
+                        "type": "unsigned int",
+                        "size": 4,
+                        "class": "Integer"
+                    },
+                    "size": 4
+                },
+                "size": 4
+            }
+        },
+        "e32107a5325aa6cd084c81d9673e4dba": {
+            "name": "darshan_fd_int_state",
+            "size": 0,
+            "class": "Struct"
+        },
+        "b53e0dc28e073c528c3763621016175a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "e32107a5325aa6cd084c81d9673e4dba"
+            },
+            "name": "state"
+        },
+        "428b0f606adc9041cee93fe20203fb20": {
+            "name": "darshan_fd_s",
+            "size": 384,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "version",
+                    "type": "7157aee557785e64b0ade31bd295b923",
+                    "offset": 0
+                },
+                {
+                    "name": "swap_flag",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 8
+                },
+                {
+                    "name": "partial_flag",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 12
+                },
+                {
+                    "name": "comp_type",
+                    "type": "7da8195b7f3e1dfe398e664ef5422045",
+                    "offset": 16
+                },
+                {
+                    "name": "job_map",
+                    "type": "d23bbc5185bfc1799c80b234905dc7b2",
+                    "offset": 24
+                },
+                {
+                    "name": "name_map",
+                    "type": "d23bbc5185bfc1799c80b234905dc7b2",
+                    "offset": 40
+                },
+                {
+                    "name": "mod_map",
+                    "type": "2aacd1994765db91e9f593660744266b",
+                    "offset": 56
+                },
+                {
+                    "name": "mod_ver",
+                    "type": "d9caf7d9b261a55903c7a1ed1a19d28c",
+                    "offset": 312
+                },
+                {
+                    "name": "state",
+                    "type": "b53e0dc28e073c528c3763621016175a",
+                    "offset": 376
+                }
+            ]
+        },
+        "d34af1e3cd1bcdc2712b8a63e009f7ef": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "428b0f606adc9041cee93fe20203fb20"
+            },
+            "name": "darshan_fd"
+        },
+        "5c02f0f4dabfe8654d0af0bd035e0c14": {
+            "name": "darshan_fd",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "428b0f606adc9041cee93fe20203fb20"
+                },
+                "name": "darshan_fd"
+            },
+            "size": 8
+        },
+        "47914ecf05b0aa328940f0c67564079a": {
+            "name": "darshan_record_id",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "uint64_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "name": "__uint64_t",
+                    "class": "TypeDef",
+                    "underlying_type": {
+                        "type": "long unsigned int",
+                        "size": 8,
+                        "class": "Integer"
+                    },
+                    "size": 8
+                },
+                "size": 8
+            },
+            "size": 8
+        },
+        "513500c24e472136cad7863cf10f07fa": {
+            "class": "Array",
+            "name": "name",
+            "size": 0,
+            "counts": [
+                1
+            ],
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "c08c79fdc8d22e4fd979876a81e65320": {
+            "name": "darshan_name_record",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "47914ecf05b0aa328940f0c67564079a",
+                    "offset": 0
+                },
+                {
+                    "name": "name",
+                    "type": "513500c24e472136cad7863cf10f07fa",
+                    "offset": 8
+                }
+            ]
+        },
+        "b7694b24fa3177a9059ded4f8f62e9bd": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "c08c79fdc8d22e4fd979876a81e65320"
+            },
+            "name": "name_record"
+        },
+        "c5dd73c21d321d3ad4d3b587ef9410e2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "prev"
+        },
+        "36c3df58d3c385b741eb2e4e0861fe45": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "next"
+        },
+        "73b384b5d0c26029a3eae4c85eef034c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "hh_prev"
+        },
+        "b7093399229024bbb6759779f190eede": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "hh_next"
+        },
+        "ab93b7895a411c452a8c961e62fa293a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "key"
+        },
+        "ee14d9eba0381e1ecd300b944f80b723": {
+            "name": "UT_hash_handle",
+            "size": 56,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "tbl",
+                    "type": "Recursive",
+                    "offset": 0
+                },
+                {
+                    "name": "prev",
+                    "type": "c5dd73c21d321d3ad4d3b587ef9410e2",
+                    "offset": 8
+                },
+                {
+                    "name": "next",
+                    "type": "36c3df58d3c385b741eb2e4e0861fe45",
+                    "offset": 16
+                },
+                {
+                    "name": "hh_prev",
+                    "type": "73b384b5d0c26029a3eae4c85eef034c",
+                    "offset": 24
+                },
+                {
+                    "name": "hh_next",
+                    "type": "b7093399229024bbb6759779f190eede",
+                    "offset": 32
+                },
+                {
+                    "name": "key",
+                    "type": "ab93b7895a411c452a8c961e62fa293a",
+                    "offset": 40
+                },
+                {
+                    "name": "keylen",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 48
+                },
+                {
+                    "name": "hashv",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 52
+                }
+            ]
+        },
+        "5ffa1e0b949c4372cc420b310a89c396": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee14d9eba0381e1ecd300b944f80b723"
+            },
+            "name": "hh_head"
+        },
+        "b7244037680975d3f52c4ffeb7899591": {
+            "name": "UT_hash_bucket",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "hh_head",
+                    "type": "5ffa1e0b949c4372cc420b310a89c396",
+                    "offset": 0
+                },
+                {
+                    "name": "count",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 8
+                },
+                {
+                    "name": "expand_mult",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 12
+                }
+            ]
+        },
+        "d7cdb485989854d523d0dfec32f18298": {
+            "name": "UT_hash_bucket",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "UT_hash_bucket",
+                "size": 16,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "hh_head",
+                        "type": "5ffa1e0b949c4372cc420b310a89c396",
+                        "offset": 0
+                    },
+                    {
+                        "name": "count",
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "offset": 8
+                    },
+                    {
+                        "name": "expand_mult",
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "offset": 12
+                    }
+                ]
+            },
+            "size": 16
+        },
+        "3e1fdbae3db1835825484904918714e0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d7cdb485989854d523d0dfec32f18298"
+            },
+            "name": "buckets"
+        },
+        "0153a9f7b36bc0f4e7f9772f31628aee": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ee14d9eba0381e1ecd300b944f80b723"
+            },
+            "name": "tail"
+        },
+        "4eada7acf956394f4c5ed2a2ad7110ed": {
+            "name": "ptrdiff_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "46b75725dcdb470cd5d208a70a682c8f": {
+            "name": "UT_hash_table",
+            "size": 64,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "buckets",
+                    "type": "3e1fdbae3db1835825484904918714e0",
+                    "offset": 0
+                },
+                {
+                    "name": "num_buckets",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 8
+                },
+                {
+                    "name": "log2_num_buckets",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 12
+                },
+                {
+                    "name": "num_items",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 16
+                },
+                {
+                    "name": "tail",
+                    "type": "0153a9f7b36bc0f4e7f9772f31628aee",
+                    "offset": 24
+                },
+                {
+                    "name": "hho",
+                    "type": "4eada7acf956394f4c5ed2a2ad7110ed",
+                    "offset": 32
+                },
+                {
+                    "name": "ideal_chain_maxlen",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 40
+                },
+                {
+                    "name": "nonideal_items",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 44
+                },
+                {
+                    "name": "ineff_expands",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 48
+                },
+                {
+                    "name": "noexpand",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 52
+                },
+                {
+                    "name": "signature",
+                    "type": "453551e3083bb521eda4f96b7068144f",
+                    "offset": 56
+                }
+            ]
+        },
+        "7a76c8c2a0c91ba711a62eeb98a88252": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "46b75725dcdb470cd5d208a70a682c8f"
+            },
+            "name": "tbl"
+        },
+        "2ac0f4fd00de8d818cd31ef529697558": {
+            "name": "UT_hash_handle",
+            "size": 56,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "tbl",
+                    "type": "7a76c8c2a0c91ba711a62eeb98a88252",
+                    "offset": 0
+                },
+                {
+                    "name": "prev",
+                    "type": "c5dd73c21d321d3ad4d3b587ef9410e2",
+                    "offset": 8
+                },
+                {
+                    "name": "next",
+                    "type": "36c3df58d3c385b741eb2e4e0861fe45",
+                    "offset": 16
+                },
+                {
+                    "name": "hh_prev",
+                    "type": "73b384b5d0c26029a3eae4c85eef034c",
+                    "offset": 24
+                },
+                {
+                    "name": "hh_next",
+                    "type": "b7093399229024bbb6759779f190eede",
+                    "offset": 32
+                },
+                {
+                    "name": "key",
+                    "type": "ab93b7895a411c452a8c961e62fa293a",
+                    "offset": 40
+                },
+                {
+                    "name": "keylen",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 48
+                },
+                {
+                    "name": "hashv",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 52
+                }
+            ]
+        },
+        "3b59f47ed29af2b3d3ca64123bbe2291": {
+            "name": "UT_hash_handle",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "UT_hash_handle",
+                "size": 56,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "tbl",
+                        "type": "7a76c8c2a0c91ba711a62eeb98a88252",
+                        "offset": 0
+                    },
+                    {
+                        "name": "prev",
+                        "type": "c5dd73c21d321d3ad4d3b587ef9410e2",
+                        "offset": 8
+                    },
+                    {
+                        "name": "next",
+                        "type": "36c3df58d3c385b741eb2e4e0861fe45",
+                        "offset": 16
+                    },
+                    {
+                        "name": "hh_prev",
+                        "type": "73b384b5d0c26029a3eae4c85eef034c",
+                        "offset": 24
+                    },
+                    {
+                        "name": "hh_next",
+                        "type": "b7093399229024bbb6759779f190eede",
+                        "offset": 32
+                    },
+                    {
+                        "name": "key",
+                        "type": "ab93b7895a411c452a8c961e62fa293a",
+                        "offset": 40
+                    },
+                    {
+                        "name": "keylen",
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "offset": 48
+                    },
+                    {
+                        "name": "hashv",
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "offset": 52
+                    }
+                ]
+            },
+            "size": 56
+        },
+        "121a87ec3e252d550c7b2cec514f8990": {
+            "name": "darshan_name_record_ref",
+            "size": 64,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "name_record",
+                    "type": "b7694b24fa3177a9059ded4f8f62e9bd",
+                    "offset": 0
+                },
+                {
+                    "name": "hlink",
+                    "type": "3b59f47ed29af2b3d3ca64123bbe2291",
+                    "offset": 8
+                }
+            ]
+        },
+        "4279afafe488b343ef21205c8a7b6ed5": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "121a87ec3e252d550c7b2cec514f8990"
+            }
+        },
+        "4a1afa66aca889367f670667e5803e1f": {
+            "class": "Array",
+            "name": "mnt_type",
+            "size": 3031,
+            "counts": [
+                3031
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "88c4d53bcccef4b969326efd2efbb4b1": {
+            "class": "Array",
+            "name": "mnt_path",
+            "size": 0,
+            "counts": [
+                3031
+            ],
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "cf21a04b62a9207929695e6bd80ce094": {
+            "name": "darshan_mnt_info",
+            "size": 6062,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "mnt_type",
+                    "type": "4a1afa66aca889367f670667e5803e1f",
+                    "offset": 0
+                },
+                {
+                    "name": "mnt_path",
+                    "type": "88c4d53bcccef4b969326efd2efbb4b1",
+                    "offset": 3031
+                }
+            ]
+        },
+        "41c8c68b416793021be703587854dd44": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "cf21a04b62a9207929695e6bd80ce094"
+            }
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "2e0e007ca62f5c7d30de939c16602814": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "50881d94c6772b0b19a5ab06608b1ac1": {
+            "type": "2e0e007ca62f5c7d30de939c16602814"
+        },
+        "579d5a95ae9a903aa85990155d64704a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            }
+        },
+        "2547a346563eeb6ec1a4783149841a45": {
+            "name": "__int64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "0b74430a4f69d9648a29c90bf3dfb22e": {
+            "name": "int64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__int64_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "long int",
+                    "size": 8,
+                    "class": "Integer"
+                },
+                "size": 8
+            },
+            "size": 8
+        },
+        "8b82205d272d967199cada00c509eab8": {
+            "class": "Array",
+            "name": "metadata",
+            "size": 1024,
+            "counts": [
+                1024
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "380706012bfa0fa76da6baa2c9c2d67f": {
+            "name": "darshan_job",
+            "size": 1064,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "0b74430a4f69d9648a29c90bf3dfb22e",
+                    "offset": 0
+                },
+                {
+                    "name": "start_time",
+                    "type": "0b74430a4f69d9648a29c90bf3dfb22e",
+                    "offset": 8
+                },
+                {
+                    "name": "end_time",
+                    "type": "0b74430a4f69d9648a29c90bf3dfb22e",
+                    "offset": 16
+                },
+                {
+                    "name": "nprocs",
+                    "type": "0b74430a4f69d9648a29c90bf3dfb22e",
+                    "offset": 24
+                },
+                {
+                    "name": "jobid",
+                    "type": "0b74430a4f69d9648a29c90bf3dfb22e",
+                    "offset": 32
+                },
+                {
+                    "name": "metadata",
+                    "type": "8b82205d272d967199cada00c509eab8",
+                    "offset": 40
+                }
+            ]
+        },
+        "bfa8452347ee5581a22e90e01e539faf": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "380706012bfa0fa76da6baa2c9c2d67f"
+            }
+        },
+        "a1466178e596ec3ecd67cc1b7a19bea9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4279afafe488b343ef21205c8a7b6ed5"
+            }
+        },
+        "ffe8a56425ef72cf52eb85db850c0fcd": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "41c8c68b416793021be703587854dd44"
+            }
+        },
+        "e4261c53eaa200fc9e93d664526ff776": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            }
+        },
+        "6e32a5dda46ad3be2aa32ad15f363f31": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            }
+        },
+        "3aeb958f4b4a9b811df2ab8db8ef3bf9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "malloc"
+        },
+        "422be5ffce23b5a8d3bda95ebc46cff3": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "restrict": true
+        },
+        "6792cec36d135df2f2acc92f958f28c5": {
+            "type": "422be5ffce23b5a8d3bda95ebc46cff3"
+        },
+        "88c031bff537ee112e1753b1f0713b0e": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "restrict": true
+        },
+        "ba5ed3eb9d0e15764c67f4ed932fe059": {
+            "type": "88c031bff537ee112e1753b1f0713b0e"
+        },
+        "6299ceae85729e684e099b7949f6af95": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "constant": true
+        },
+        "0a359105911054fb119faad976dd2309": {
+            "type": "6299ceae85729e684e099b7949f6af95"
+        },
+        "1b4f31c5a3867ad1b06e47a3a721e42a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0a359105911054fb119faad976dd2309"
+            }
+        },
+        "9450ff46b2d7eba8775945121a39c372": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "name"
+        },
+        "ccd70f8497c61242736e303220272583": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "flag"
+        },
+        "c6a9cd92eff5ab57ad885a6457406a70": {
+            "name": "option",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "9450ff46b2d7eba8775945121a39c372",
+                    "offset": 0
+                },
+                {
+                    "name": "has_arg",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 8
+                },
+                {
+                    "name": "flag",
+                    "type": "ccd70f8497c61242736e303220272583",
+                    "offset": 16
+                },
+                {
+                    "name": "val",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 24
+                }
+            ],
+            "constant": true
+        },
+        "d114168ef53b451b3cfd27f71771e224": {
+            "type": "c6a9cd92eff5ab57ad885a6457406a70"
+        },
+        "3c6edb3d70366c224d8f9bf149cb9520": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d114168ef53b451b3cfd27f71771e224"
+            }
+        },
+        "eb20939bd60e4d5ffd32ebdc2879c510": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "restrict": true
+        },
+        "bee3fbe4a722548b53c1fbfcdea4e753": {
+            "type": "eb20939bd60e4d5ffd32ebdc2879c510"
+        }
+    }
+}

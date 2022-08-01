@@ -1,0 +1,4504 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-broadwell/gcc-11.2.0/gettext-0.21-tqgkix26t3nsh6knaxjhly2nykrxudej/lib/libintl.so.8.2.0",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "_nl_msg_cat_cntr",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_nl_default_dirname",
+                    "location": "var",
+                    "type": "10ac4ebbcfa36eed13765c069fb5b7cc",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_nl_domain_bindings",
+                    "location": "var",
+                    "type": "8724851822c18e66eb67232b5321732b",
+                    "direction": "import"
+                },
+                {
+                    "name": "_nl_state_lock",
+                    "location": "var",
+                    "type": "396c7725b01dc54e50d20a4a74282ed1",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_nl_default_default_domain",
+                    "location": "var",
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_nl_current_default_domain",
+                    "location": "var",
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_gettext_germanic_plural",
+                    "location": "var",
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "import"
+                },
+                {
+                    "name": "libintl_version",
+                    "location": "var",
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3aeb958f4b4a9b811df2ab8db8ef3bf9",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "598a1401d91ec64d45918b77a43c9f60",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_bind_textdomain_codeset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "1812fa398963a139ae5e6030920c4312",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "codeset",
+                        "type": "f885fcaf42a67520d34ed20b54c56d5f",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "37dd831ce7f2222b5dfd1b8142974c8e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_bindtextdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "1812fa398963a139ae5e6030920c4312",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "dirname",
+                        "type": "e120843d0e1e0d60b5baf17a890a47eb",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "cb8fde14063a7e74e0131ede8771f195",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "ae2a4f43d1afcc6440b9d8aa2dff69d0"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "6dccf0310c4ad89460bb2ac6413c8818",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "category",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "50881d94c6772b0b19a5ab06608b1ac1",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "msgid",
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "50881d94c6772b0b19a5ab06608b1ac1",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "865903ea1c7ce265a4d594f534d0f090",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_nl_expand_alias",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "munmap",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "close",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mmap",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fstat",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "read",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__fd",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__buf",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__nbytes",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "open",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__path",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__oflag",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fgets_unlocked",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "qsort",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_b_loc",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fsetlocking",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcasecmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "_nl_expand_alias",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "mempcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fgets_unlocked",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mempcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_textdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_tolower_loc",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_b_loc",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "a95bfe00a9ff4bd2a73f6f90a7b630e9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "f0732f0297b948cb904d6f460c6cde06",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "f0732f0297b948cb904d6f460c6cde06",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "33b341b18feb05cd169b937bd2503eab",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_open",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcspn",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "33b341b18feb05cd169b937bd2503eab",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strstr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getcwd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getenv",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "tsearch",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "33b341b18feb05cd169b937bd2503eab",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getegid",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getgid",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "geteuid",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getuid",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "tfind",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getcwd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__buf",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "af66bba6ba4757eef090a14f8b5013f9",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "af66bba6ba4757eef090a14f8b5013f9",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mempcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mempcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid1",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "category",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid1",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "50881d94c6772b0b19a5ab06608b1ac1",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_ngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "msgid1",
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "ffd41b362e1fd8f4bd632438128f6130"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "50881d94c6772b0b19a5ab06608b1ac1",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "1dc2869f2771ca9623670daf9647f92e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strtoul",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "46f5dbdf885df2e1e3b2a3fe9ca8707b"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "f0732f0297b948cb904d6f460c6cde06",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_b_loc",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strstr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "nl_langinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "6509b918841961f96fc9df084f97d12a",
+                    "direction": "export",
+                    "location": "%st0"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_set_relocation_prefix",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_set_relocation_prefix",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "orig_prefix_arg",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "curr_prefix_arg",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "6509b918841961f96fc9df084f97d12a",
+                    "direction": "export",
+                    "location": "%st0"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getenv",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "865903ea1c7ce265a4d594f534d0f090",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "nl_langinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "uselocale",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "865903ea1c7ce265a4d594f534d0f090",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "865903ea1c7ce265a4d594f534d0f090",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gl_get_setlocale_null_lock",
+                "class": "Function",
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "setlocale",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "f0732f0297b948cb904d6f460c6cde06",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "1dc2869f2771ca9623670daf9647f92e",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_bind_textdomain_codeset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_bindtextdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_textdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_ngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dcgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_dgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "bind_textdomain_codeset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "codeset",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "bindtextdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "dirname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "textdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid1",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "category",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid1",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "ngettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "msgid1",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid2",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "n",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dcgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "category",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "dgettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "domainname",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "msgid",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "msgid",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "ffd41b362e1fd8f4bd632438128f6130",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "2e0e007ca62f5c7d30de939c16602814": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "50881d94c6772b0b19a5ab06608b1ac1": {
+            "type": "2e0e007ca62f5c7d30de939c16602814"
+        },
+        "05b815e4272c07deebdea29987e8704d": {
+            "type": "unknown",
+            "class": "Unknown",
+            "constant": true
+        },
+        "717625d6b894fffe054c852bb3132077": {
+            "class": "Array",
+            "name": "unknown",
+            "size": 0,
+            "counts": [],
+            "constant": true,
+            "underlying_type": {
+                "type": "2e0e007ca62f5c7d30de939c16602814"
+            }
+        },
+        "10ac4ebbcfa36eed13765c069fb5b7cc": {
+            "type": "717625d6b894fffe054c852bb3132077"
+        },
+        "b56eb736d612852d78b474537c34d566": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "next"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "a74370b0f37e30c780d2bd3260b6072b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "dirname"
+        },
+        "d2ad16752d27a75ffb1efb31b768353c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "codeset"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "78a05144709a58e9860593cf916cb939": {
+            "class": "Array",
+            "name": "domainname",
+            "size": 0,
+            "counts": [],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "21404f13d6ab593b1b765ab7de0cd515": {
+            "name": "binding",
+            "size": 24,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "next",
+                    "type": "b56eb736d612852d78b474537c34d566",
+                    "offset": 0
+                },
+                {
+                    "name": "dirname",
+                    "type": "a74370b0f37e30c780d2bd3260b6072b",
+                    "offset": 8
+                },
+                {
+                    "name": "codeset",
+                    "type": "d2ad16752d27a75ffb1efb31b768353c",
+                    "offset": 16
+                },
+                {
+                    "name": "domainname",
+                    "type": "78a05144709a58e9860593cf916cb939",
+                    "offset": 24
+                }
+            ]
+        },
+        "8724851822c18e66eb67232b5321732b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "21404f13d6ab593b1b765ab7de0cd515"
+            },
+            "name": "libintl_nl_domain_bindings"
+        },
+        "23c8dbaade46c0452e1e8a42755e7087": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "e5cd6cd12a33c9993ba99d95db8f4ce7": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "d915d482818bc16287f636e3b3f16416": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "0afbb5b1c5dc12d85fbfaae8352b61a9": {
+            "class": "Array",
+            "name": "__pad1",
+            "size": 7,
+            "counts": [
+                7
+            ],
+            "underlying_type": {
+                "type": "unsigned char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "482cd956472f77357214a41130ade4de": {
+            "name": "__pthread_rwlock_arch_t",
+            "size": 56,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "__readers",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 0
+                },
+                {
+                    "name": "__writers",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 4
+                },
+                {
+                    "name": "__wrphase_futex",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 8
+                },
+                {
+                    "name": "__writers_futex",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 12
+                },
+                {
+                    "name": "__pad3",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 16
+                },
+                {
+                    "name": "__pad4",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 20
+                },
+                {
+                    "name": "__cur_writer",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 24
+                },
+                {
+                    "name": "__shared",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 28
+                },
+                {
+                    "name": "__rwelision",
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "offset": 32
+                },
+                {
+                    "name": "__pad1",
+                    "type": "0afbb5b1c5dc12d85fbfaae8352b61a9",
+                    "offset": 33
+                },
+                {
+                    "name": "__pad2",
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "offset": 40
+                },
+                {
+                    "name": "__flags",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "offset": 48
+                }
+            ]
+        },
+        "672db6773e47e288e47996b7844595be": {
+            "class": "Array",
+            "name": "__size",
+            "size": 56,
+            "counts": [
+                56
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "89debe417b8a1ab3a19e224a1d8a89f3": {
+            "name": "unknown",
+            "size": 56,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "__data",
+                    "type": "482cd956472f77357214a41130ade4de"
+                },
+                {
+                    "name": "__size",
+                    "type": "672db6773e47e288e47996b7844595be"
+                },
+                {
+                    "name": "__align",
+                    "type": "abe75cc58bf0465f278804f771c3367e"
+                }
+            ]
+        },
+        "396c7725b01dc54e50d20a4a74282ed1": {
+            "name": "pthread_rwlock_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "unknown",
+                "size": 56,
+                "class": "Union",
+                "fields": [
+                    {
+                        "name": "__data",
+                        "type": "482cd956472f77357214a41130ade4de"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "672db6773e47e288e47996b7844595be"
+                    },
+                    {
+                        "name": "__align",
+                        "type": "abe75cc58bf0465f278804f771c3367e"
+                    }
+                ]
+            },
+            "size": 56
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "3aeb958f4b4a9b811df2ab8db8ef3bf9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "malloc"
+        },
+        "18a1655c0d6e5784b11d64496b967364": {
+            "name": "size_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "579d5a95ae9a903aa85990155d64704a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            }
+        },
+        "6e32a5dda46ad3be2aa32ad15f363f31": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            }
+        },
+        "598a1401d91ec64d45918b77a43c9f60": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "strdup"
+        },
+        "37dd831ce7f2222b5dfd1b8142974c8e": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "libintl_bind_textdomain_codeset"
+        },
+        "1812fa398963a139ae5e6030920c4312": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "domainname"
+        },
+        "f885fcaf42a67520d34ed20b54c56d5f": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "codeset"
+        },
+        "cb8fde14063a7e74e0131ede8771f195": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "libintl_bindtextdomain"
+        },
+        "e120843d0e1e0d60b5baf17a890a47eb": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "dirname"
+        },
+        "6dccf0310c4ad89460bb2ac6413c8818": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memcpy"
+        },
+        "e5d7e2f0a8519fc88a5c4b4726195897": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "restrict": true
+        },
+        "33b341b18feb05cd169b937bd2503eab": {
+            "type": "e5d7e2f0a8519fc88a5c4b4726195897"
+        },
+        "046815e3c73d9d22fc5e0c7974011925": {
+            "type": "05b815e4272c07deebdea29987e8704d"
+        },
+        "5ab89775bc91c14a5fd2aded45a61da9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "046815e3c73d9d22fc5e0c7974011925"
+            },
+            "restrict": true
+        },
+        "ae2a4f43d1afcc6440b9d8aa2dff69d0": {
+            "type": "5ab89775bc91c14a5fd2aded45a61da9"
+        },
+        "2e10c266b1cde942d5bd10e27fac0eb7": {
+            "name": "wchar_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4,
+            "constant": true
+        },
+        "ffd41b362e1fd8f4bd632438128f6130": {
+            "type": "2e10c266b1cde942d5bd10e27fac0eb7"
+        },
+        "865903ea1c7ce265a4d594f534d0f090": {
+            "name": "wchar_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "a95bfe00a9ff4bd2a73f6f90a7b630e9": {
+            "type": "e5cd6cd12a33c9993ba99d95db8f4ce7"
+        },
+        "f0732f0297b948cb904d6f460c6cde06": {
+            "type": "long long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "af66bba6ba4757eef090a14f8b5013f9": {
+            "name": "strcmp",
+            "class": "Function",
+            "parameters": [
+                {
+                    "type": "579d5a95ae9a903aa85990155d64704a"
+                },
+                {
+                    "type": "579d5a95ae9a903aa85990155d64704a"
+                }
+            ],
+            "return": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            }
+        },
+        "1dc2869f2771ca9623670daf9647f92e": {
+            "type": "short int",
+            "size": 2,
+            "class": "Integer"
+        },
+        "46f5dbdf885df2e1e3b2a3fe9ca8707b": {
+            "type": "23c8dbaade46c0452e1e8a42755e7087"
+        },
+        "0eda2e2e55410d273f7dc06c4b1a527d": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer"
+        },
+        "6509b918841961f96fc9df084f97d12a": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float"
+        }
+    }
+}

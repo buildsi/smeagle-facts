@@ -1,0 +1,44 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-broadwell/gcc-11.2.0/hdf5-develop-1.10-tjwkmmotpw5klozeyj7gwuhzcjkz5omw/bin/mirror_server",
+    "locations": [
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "3fc1db886e7bd2faa261875c4dd99614"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        }
+    ],
+    "types": {
+        "3fc1db886e7bd2faa261875c4dd99614": {
+            "type": "unknown",
+            "class": "Unknown",
+            "constant": true,
+            "restrict": true
+        }
+    }
+}

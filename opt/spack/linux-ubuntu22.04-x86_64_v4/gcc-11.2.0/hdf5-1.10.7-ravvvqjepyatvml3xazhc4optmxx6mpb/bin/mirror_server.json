@@ -1,0 +1,59 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-x86_64_v4/gcc-11.2.0/hdf5-1.10.7-ravvvqjepyatvml3xazhc4optmxx6mpb/bin/mirror_server",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "stdout",
+                    "location": "var",
+                    "type": "40fcda1a2bbb8e2ce50cbc0d56e56e68",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "40fcda1a2bbb8e2ce50cbc0d56e56e68"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "HDfprintf",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "40fcda1a2bbb8e2ce50cbc0d56e56e68"
+                    },
+                    {
+                        "type": "40fcda1a2bbb8e2ce50cbc0d56e56e68"
+                    }
+                ],
+                "return": {
+                    "type": "40fcda1a2bbb8e2ce50cbc0d56e56e68",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        }
+    ],
+    "types": {
+        "40fcda1a2bbb8e2ce50cbc0d56e56e68": {
+            "type": "unknown",
+            "class": "Unknown",
+            "restrict": true
+        }
+    }
+}

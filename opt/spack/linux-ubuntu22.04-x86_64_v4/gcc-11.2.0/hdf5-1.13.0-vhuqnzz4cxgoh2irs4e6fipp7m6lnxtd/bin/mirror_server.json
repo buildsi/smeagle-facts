@@ -1,0 +1,44 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-x86_64_v4/gcc-11.2.0/hdf5-1.13.0-vhuqnzz4cxgoh2irs4e6fipp7m6lnxtd/bin/mirror_server",
+    "locations": [
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "3fc1db886e7bd2faa261875c4dd99614"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        }
+    ],
+    "types": {
+        "3fc1db886e7bd2faa261875c4dd99614": {
+            "type": "unknown",
+            "class": "Unknown",
+            "restrict": true,
+            "constant": true
+        }
+    }
+}

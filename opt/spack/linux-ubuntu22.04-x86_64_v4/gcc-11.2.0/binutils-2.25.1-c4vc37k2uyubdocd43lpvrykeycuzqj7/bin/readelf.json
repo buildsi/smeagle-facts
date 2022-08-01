@@ -1,0 +1,5954 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-x86_64_v4/gcc-11.2.0/binutils-2.25.1-c4vc37k2uyubdocd43lpvrykeycuzqj7/bin/readelf",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "stdout",
+                    "location": "var",
+                    "type": "48e826ddeb4105e268657e4ba2242edd",
+                    "direction": "import"
+                },
+                {
+                    "name": "stderr",
+                    "location": "var",
+                    "type": "649c9bf448a28b392169dffe3bf8eb60",
+                    "direction": "import"
+                },
+                {
+                    "name": "optarg",
+                    "location": "var",
+                    "type": "bbfb51475d62020d97bcfde52bbbbbb1",
+                    "direction": "import"
+                },
+                {
+                    "name": "optind",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "program_name",
+                    "location": "var",
+                    "type": "2191fe7989087f857469ca99cddde677",
+                    "direction": "import"
+                },
+                {
+                    "name": "byte_put",
+                    "location": "var",
+                    "type": "97e7ba7e6047417772675d48daf84b19",
+                    "direction": "import"
+                },
+                {
+                    "name": "byte_get",
+                    "location": "var",
+                    "type": "710acf0bc1a18dcc81dac9aec094374c",
+                    "direction": "import"
+                },
+                {
+                    "name": "debug_displays",
+                    "location": "var",
+                    "type": "5184477f2bac43127b5b8a93f46638f4",
+                    "direction": "import"
+                },
+                {
+                    "name": "eh_addr_size",
+                    "location": "var",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_info",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_abbrevs",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_lines",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_pubnames",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_pubtypes",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_aranges",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_ranges",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_frames",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_macinfo",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_str",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_loc",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_gdb_index",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_trace_info",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_trace_abbrevs",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_trace_aranges",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_addr",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_debug_cu_index",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "do_wide",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "dwarf_cutoff_level",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "dwarf_start_die",
+                    "location": "var",
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "import"
+                },
+                {
+                    "name": "dwarf_check",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sch_istable",
+                    "location": "var",
+                    "type": "cce0dce812f6592ddb0b5f42faa3ae97",
+                    "direction": "import"
+                },
+                {
+                    "name": "section_subset",
+                    "location": "var",
+                    "type": "429c83eaa3c39f1d4c7f1e50a4b2d012",
+                    "direction": "export"
+                },
+                {
+                    "name": "do_debug_frames_interp",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sch_toupper",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_sch_tolower",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_xexit_cleanup",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                {
+                    "name": "environ",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "fputc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fputs",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "gmtime",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "eb83bb904a85498804d7820f98e42eec",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "c8f66ca2fe5c1f050ed454c03f559047",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__isoc99_fscanf",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    },
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "mbrtowc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "7a72ded97f2befe1006a4b791b043a86"
+                    },
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "0e627dc35e7d1cef38e5fbeb2eb2c154"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_get_mb_cur_max",
+                "class": "Function",
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__assert_fail",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "23c8dbaade46c0452e1e8a42755e7087",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rcx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__printf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strnlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "ftell",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "rewind",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "e4a243679d5b550fb765690a8b91839b",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strerror",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "c7a3b187df315aadd41a95ad8d124243",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "class": "Function",
+                "return": {
+                    "type": "2abbb09a543a102ac4e94e0b821934fe",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stat",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "de40018e40b14e6510cf62d0c98d4f19"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "598a1401d91ec64d45918b77a43c9f60",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "5711a1093e6b7d4a1337da8232834664",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getopt_long",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "1b4f31c5a3867ad1b06e47a3a721e42a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdx",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "3c6edb3d70366c224d8f9bf149cb9520",
+                        "location": "%rcx",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "e4261c53eaa200fc9e93d664526ff776",
+                        "location": "%r8",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strtoul",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "type": "ba5ed3eb9d0e15764c67f4ed932fe059"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_textdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "308752f9f85af30e6441a2f51c923c7f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_bindtextdomain",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "cb8fde14063a7e74e0131ede8771f195",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "setlocale",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "7f7911d6a37f0f3d8f865a1404b7a43c",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "warn",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateEnd",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "740a1d84d8e9338ec38b157d42d7acbd",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateReset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "740a1d84d8e9338ec38b157d42d7acbd",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflate",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "740a1d84d8e9338ec38b157d42d7acbd",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "inflateInit_",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "740a1d84d8e9338ec38b157d42d7acbd",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3aeb958f4b4a9b811df2ab8db8ef3bf9",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fseek",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "ad098f086a58355e394a956e33f1dbf8",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "abe75cc58bf0465f278804f771c3367e",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "error",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "0f505e1e9da2946969b3ec7b058c09af",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "d6c6efd9baa3cc79795de0044d42584e"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "955aa254db5416250357d1cee6fb4ada",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "d6c6efd9baa3cc79795de0044d42584e"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "c56daf215eabecb12e82fee261b1d5d1",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "d6c6efd9baa3cc79795de0044d42584e"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "e083bc2adc4dec237f0bd5346ae9d6e0",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "9f817ad055cb2f61400a63bfe45da245",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "62e1b3f06848be367db98a73d70e63ac",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "b67f3dfb2dc38c48bdabb9ab38054e8d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "6dccf0310c4ad89460bb2ac6413c8818",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__ptr",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "bee3fbe4a722548b53c1fbfcdea4e753"
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "d6c6efd9baa3cc79795de0044d42584e"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__fmt",
+                        "type": "6792cec36d135df2f2acc92f958f28c5"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putchar",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__c",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__snprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putchar",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fwrite",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__strcat_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__sprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__memcpy_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stpcpy_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__strcpy_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fputc",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__printf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__printf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putchar",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__c",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__sprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "stpcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__memcpy_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fputs",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strrchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strnlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "c334bd3059515419976afe665099cef9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fflush",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "qsort",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "c334bd3059515419976afe665099cef9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "c334bd3059515419976afe665099cef9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__printf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "error",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "warn",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "c334bd3059515419976afe665099cef9"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "c334bd3059515419976afe665099cef9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "c334bd3059515419976afe665099cef9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__fmt",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putchar",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__c",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "putchar",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__snprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "puts",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__sprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__printf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__assert_fail",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "a8b62564b47123909141e9502c1006d0",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "getc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strtoul",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fseek",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strdup",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__vfprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libintl_gettext",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fflush",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "warn",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "message",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "error",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "message",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "dbc943539e55774e57b531e6a0e987f5",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__ptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "snprintf",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__s",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__fmt",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__snprintf_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fread_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fclose",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "ferror",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "ftell",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fseek",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fopen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fputc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "fread",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__ptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__size",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__n",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__stream",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "exit",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "realloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "calloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__fprintf_chk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "sbrk",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "208f680a325a1b176fa8265b64603ffa": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_ptr"
+        },
+        "936ece898aebecd227466b04e10bd41c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_end"
+        },
+        "864aadc300ae287e89141b12d119f8c3": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_read_base"
+        },
+        "a658c5d1e8a0bfabf7a49dffc8574ffb": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_base"
+        },
+        "458675b579f2f1e9a663349bc8d191d7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_ptr"
+        },
+        "8cf7633a2a6b8666aab4ce37912a5e32": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_write_end"
+        },
+        "698869170c484a3c57ee11b1246811a6": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_buf_base"
+        },
+        "f451f9d3e3ab24784d3ca0454bd1c464": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_buf_end"
+        },
+        "24e0976484f03f5e4d7d5987c59e9753": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_save_base"
+        },
+        "31fc9da88da9b49a9a8b6c9bf5a4e281": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_backup_base"
+        },
+        "d95b083e5fad4fe4a6b1c11b04ccf353": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "_IO_save_end"
+        },
+        "22488af440eaee5f0caec25a47ce367e": {
+            "name": "_IO_marker",
+            "size": 0,
+            "class": "Struct"
+        },
+        "d76b1250bb5a53e749731d84739a8466": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "22488af440eaee5f0caec25a47ce367e"
+            },
+            "name": "_markers"
+        },
+        "abe75cc58bf0465f278804f771c3367e": {
+            "type": "long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "668dc562a865d56b0091e306b6b9592f": {
+            "name": "__off_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "0eda2e2e55410d273f7dc06c4b1a527d": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer"
+        },
+        "e5cd6cd12a33c9993ba99d95db8f4ce7": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "a25a51ac1cc3ad89ab06a599c1f895c8": {
+            "class": "Array",
+            "name": "_shortbuf",
+            "size": 1,
+            "counts": [
+                1
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "094f321fd5bb8d08c33f220ea53625d9": {
+            "type": "unknown",
+            "class": "Unknown"
+        },
+        "e2cdb1d971a93ab9269414059960fd7b": {
+            "name": "_IO_lock_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unknown",
+                "class": "Unknown"
+            },
+            "size": null
+        },
+        "17e707171a89e5bff0aab092629f7530": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "e2cdb1d971a93ab9269414059960fd7b"
+            },
+            "name": "_lock"
+        },
+        "955f5e0c4587e6d0a6a43bfc05f98306": {
+            "name": "__off64_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "cc28a667e7092e7be61666bf3838975f": {
+            "name": "_IO_codecvt",
+            "size": 0,
+            "class": "Struct"
+        },
+        "967dfa9a0c7f27093b358de4347d9d88": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "cc28a667e7092e7be61666bf3838975f"
+            },
+            "name": "_codecvt"
+        },
+        "9e8e6f4c30e7db1de823a84bfce74a67": {
+            "name": "_IO_wide_data",
+            "size": 0,
+            "class": "Struct"
+        },
+        "b106ac0bd0ddf1a8d824c32b15459649": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9e8e6f4c30e7db1de823a84bfce74a67"
+            },
+            "name": "_wide_data"
+        },
+        "e4515263473f490efd9b3fe942b105c5": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "Recursive"
+            },
+            "name": "_freeres_list"
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "7dffe8c3b6ce97c68b5bb43e6288a067": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "_freeres_buf"
+        },
+        "18a1655c0d6e5784b11d64496b967364": {
+            "name": "size_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "4de929c19798fca4d6f2ae9f464e33f6": {
+            "class": "Array",
+            "name": "_unused2",
+            "size": 20,
+            "counts": [
+                20
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "d77ba7256a12f19b99771e3950e66e63": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "208f680a325a1b176fa8265b64603ffa",
+                    "offset": 8
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "936ece898aebecd227466b04e10bd41c",
+                    "offset": 16
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "864aadc300ae287e89141b12d119f8c3",
+                    "offset": 24
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                    "offset": 32
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "458675b579f2f1e9a663349bc8d191d7",
+                    "offset": 40
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                    "offset": 48
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "698869170c484a3c57ee11b1246811a6",
+                    "offset": 56
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                    "offset": 64
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "24e0976484f03f5e4d7d5987c59e9753",
+                    "offset": 72
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                    "offset": 80
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                    "offset": 88
+                },
+                {
+                    "name": "_markers",
+                    "type": "d76b1250bb5a53e749731d84739a8466",
+                    "offset": 96
+                },
+                {
+                    "name": "_chain",
+                    "type": "Recursive",
+                    "offset": 104
+                },
+                {
+                    "name": "_fileno",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 112
+                },
+                {
+                    "name": "_flags2",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 116
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "668dc562a865d56b0091e306b6b9592f",
+                    "offset": 120
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                    "offset": 128
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "offset": 130
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                    "offset": 131
+                },
+                {
+                    "name": "_lock",
+                    "type": "17e707171a89e5bff0aab092629f7530",
+                    "offset": 136
+                },
+                {
+                    "name": "_offset",
+                    "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                    "offset": 144
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "967dfa9a0c7f27093b358de4347d9d88",
+                    "offset": 152
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                    "offset": 160
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "e4515263473f490efd9b3fe942b105c5",
+                    "offset": 168
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                    "offset": 176
+                },
+                {
+                    "name": "__pad5",
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "offset": 184
+                },
+                {
+                    "name": "_mode",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 192
+                },
+                {
+                    "name": "_unused2",
+                    "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                    "offset": 196
+                }
+            ]
+        },
+        "b1421deb26fcdcf161a0cbc468ab2fc0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d77ba7256a12f19b99771e3950e66e63"
+            },
+            "name": "_chain"
+        },
+        "0cd1e4ff9298d5b3c5a6003eeaa6c79e": {
+            "name": "_IO_FILE",
+            "size": 216,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "_flags",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "_IO_read_ptr",
+                    "type": "208f680a325a1b176fa8265b64603ffa",
+                    "offset": 8
+                },
+                {
+                    "name": "_IO_read_end",
+                    "type": "936ece898aebecd227466b04e10bd41c",
+                    "offset": 16
+                },
+                {
+                    "name": "_IO_read_base",
+                    "type": "864aadc300ae287e89141b12d119f8c3",
+                    "offset": 24
+                },
+                {
+                    "name": "_IO_write_base",
+                    "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                    "offset": 32
+                },
+                {
+                    "name": "_IO_write_ptr",
+                    "type": "458675b579f2f1e9a663349bc8d191d7",
+                    "offset": 40
+                },
+                {
+                    "name": "_IO_write_end",
+                    "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                    "offset": 48
+                },
+                {
+                    "name": "_IO_buf_base",
+                    "type": "698869170c484a3c57ee11b1246811a6",
+                    "offset": 56
+                },
+                {
+                    "name": "_IO_buf_end",
+                    "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                    "offset": 64
+                },
+                {
+                    "name": "_IO_save_base",
+                    "type": "24e0976484f03f5e4d7d5987c59e9753",
+                    "offset": 72
+                },
+                {
+                    "name": "_IO_backup_base",
+                    "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                    "offset": 80
+                },
+                {
+                    "name": "_IO_save_end",
+                    "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                    "offset": 88
+                },
+                {
+                    "name": "_markers",
+                    "type": "d76b1250bb5a53e749731d84739a8466",
+                    "offset": 96
+                },
+                {
+                    "name": "_chain",
+                    "type": "b1421deb26fcdcf161a0cbc468ab2fc0",
+                    "offset": 104
+                },
+                {
+                    "name": "_fileno",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 112
+                },
+                {
+                    "name": "_flags2",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 116
+                },
+                {
+                    "name": "_old_offset",
+                    "type": "668dc562a865d56b0091e306b6b9592f",
+                    "offset": 120
+                },
+                {
+                    "name": "_cur_column",
+                    "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                    "offset": 128
+                },
+                {
+                    "name": "_vtable_offset",
+                    "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                    "offset": 130
+                },
+                {
+                    "name": "_shortbuf",
+                    "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                    "offset": 131
+                },
+                {
+                    "name": "_lock",
+                    "type": "17e707171a89e5bff0aab092629f7530",
+                    "offset": 136
+                },
+                {
+                    "name": "_offset",
+                    "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                    "offset": 144
+                },
+                {
+                    "name": "_codecvt",
+                    "type": "967dfa9a0c7f27093b358de4347d9d88",
+                    "offset": 152
+                },
+                {
+                    "name": "_wide_data",
+                    "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                    "offset": 160
+                },
+                {
+                    "name": "_freeres_list",
+                    "type": "e4515263473f490efd9b3fe942b105c5",
+                    "offset": 168
+                },
+                {
+                    "name": "_freeres_buf",
+                    "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                    "offset": 176
+                },
+                {
+                    "name": "__pad5",
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "offset": 184
+                },
+                {
+                    "name": "_mode",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 192
+                },
+                {
+                    "name": "_unused2",
+                    "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                    "offset": 196
+                }
+            ]
+        },
+        "49e111b085539ceb01a107b9de281a66": {
+            "name": "FILE",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "_IO_FILE",
+                "size": 216,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "_flags",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 0
+                    },
+                    {
+                        "name": "_IO_read_ptr",
+                        "type": "208f680a325a1b176fa8265b64603ffa",
+                        "offset": 8
+                    },
+                    {
+                        "name": "_IO_read_end",
+                        "type": "936ece898aebecd227466b04e10bd41c",
+                        "offset": 16
+                    },
+                    {
+                        "name": "_IO_read_base",
+                        "type": "864aadc300ae287e89141b12d119f8c3",
+                        "offset": 24
+                    },
+                    {
+                        "name": "_IO_write_base",
+                        "type": "a658c5d1e8a0bfabf7a49dffc8574ffb",
+                        "offset": 32
+                    },
+                    {
+                        "name": "_IO_write_ptr",
+                        "type": "458675b579f2f1e9a663349bc8d191d7",
+                        "offset": 40
+                    },
+                    {
+                        "name": "_IO_write_end",
+                        "type": "8cf7633a2a6b8666aab4ce37912a5e32",
+                        "offset": 48
+                    },
+                    {
+                        "name": "_IO_buf_base",
+                        "type": "698869170c484a3c57ee11b1246811a6",
+                        "offset": 56
+                    },
+                    {
+                        "name": "_IO_buf_end",
+                        "type": "f451f9d3e3ab24784d3ca0454bd1c464",
+                        "offset": 64
+                    },
+                    {
+                        "name": "_IO_save_base",
+                        "type": "24e0976484f03f5e4d7d5987c59e9753",
+                        "offset": 72
+                    },
+                    {
+                        "name": "_IO_backup_base",
+                        "type": "31fc9da88da9b49a9a8b6c9bf5a4e281",
+                        "offset": 80
+                    },
+                    {
+                        "name": "_IO_save_end",
+                        "type": "d95b083e5fad4fe4a6b1c11b04ccf353",
+                        "offset": 88
+                    },
+                    {
+                        "name": "_markers",
+                        "type": "d76b1250bb5a53e749731d84739a8466",
+                        "offset": 96
+                    },
+                    {
+                        "name": "_chain",
+                        "type": "b1421deb26fcdcf161a0cbc468ab2fc0",
+                        "offset": 104
+                    },
+                    {
+                        "name": "_fileno",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 112
+                    },
+                    {
+                        "name": "_flags2",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 116
+                    },
+                    {
+                        "name": "_old_offset",
+                        "type": "668dc562a865d56b0091e306b6b9592f",
+                        "offset": 120
+                    },
+                    {
+                        "name": "_cur_column",
+                        "type": "0eda2e2e55410d273f7dc06c4b1a527d",
+                        "offset": 128
+                    },
+                    {
+                        "name": "_vtable_offset",
+                        "type": "e5cd6cd12a33c9993ba99d95db8f4ce7",
+                        "offset": 130
+                    },
+                    {
+                        "name": "_shortbuf",
+                        "type": "a25a51ac1cc3ad89ab06a599c1f895c8",
+                        "offset": 131
+                    },
+                    {
+                        "name": "_lock",
+                        "type": "17e707171a89e5bff0aab092629f7530",
+                        "offset": 136
+                    },
+                    {
+                        "name": "_offset",
+                        "type": "955f5e0c4587e6d0a6a43bfc05f98306",
+                        "offset": 144
+                    },
+                    {
+                        "name": "_codecvt",
+                        "type": "967dfa9a0c7f27093b358de4347d9d88",
+                        "offset": 152
+                    },
+                    {
+                        "name": "_wide_data",
+                        "type": "b106ac0bd0ddf1a8d824c32b15459649",
+                        "offset": 160
+                    },
+                    {
+                        "name": "_freeres_list",
+                        "type": "e4515263473f490efd9b3fe942b105c5",
+                        "offset": 168
+                    },
+                    {
+                        "name": "_freeres_buf",
+                        "type": "7dffe8c3b6ce97c68b5bb43e6288a067",
+                        "offset": 176
+                    },
+                    {
+                        "name": "__pad5",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "offset": 184
+                    },
+                    {
+                        "name": "_mode",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 192
+                    },
+                    {
+                        "name": "_unused2",
+                        "type": "4de929c19798fca4d6f2ae9f464e33f6",
+                        "offset": 196
+                    }
+                ]
+            },
+            "size": 216
+        },
+        "48e826ddeb4105e268657e4ba2242edd": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "name": "stdout"
+        },
+        "649c9bf448a28b392169dffe3bf8eb60": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "name": "stderr"
+        },
+        "bbfb51475d62020d97bcfde52bbbbbb1": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "optarg"
+        },
+        "2191fe7989087f857469ca99cddde677": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "program_name"
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "97e7ba7e6047417772675d48daf84b19": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "byte_put"
+        },
+        "710acf0bc1a18dcc81dac9aec094374c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "byte_get"
+        },
+        "2e0e007ca62f5c7d30de939c16602814": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "50881d94c6772b0b19a5ab06608b1ac1": {
+            "type": "2e0e007ca62f5c7d30de939c16602814"
+        },
+        "1ca91d63d4e2b6678c37f2ed2a77209b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "uncompressed_name"
+        },
+        "6887cd87c9177d3cf9fcb35d4152399a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "compressed_name"
+        },
+        "9450ff46b2d7eba8775945121a39c372": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "name"
+        },
+        "d915d482818bc16287f636e3b3f16416": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "eea63d768ec028295ea4989d42c2b106": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d915d482818bc16287f636e3b3f16416"
+            },
+            "name": "start"
+        },
+        "f5a8238f801749618447d259c87f4a33": {
+            "name": "dwarf_vma",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "9e7bbeccf63eeaa64e6545b8b9d14095": {
+            "name": "dwarf_size_type",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "23c8dbaade46c0452e1e8a42755e7087": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "4ca870a2dad572506cfb73b882821273": {
+            "name": "dwarf_section_display_enum",
+            "size": 4,
+            "type": "23c8dbaade46c0452e1e8a42755e7087",
+            "class": "Enum",
+            "fields": [
+                {
+                    "name": "abbrev",
+                    "value": 0
+                },
+                {
+                    "name": "aranges",
+                    "value": 1
+                },
+                {
+                    "name": "frame",
+                    "value": 2
+                },
+                {
+                    "name": "info",
+                    "value": 3
+                },
+                {
+                    "name": "line",
+                    "value": 4
+                },
+                {
+                    "name": "pubnames",
+                    "value": 5
+                },
+                {
+                    "name": "gnu_pubnames",
+                    "value": 6
+                },
+                {
+                    "name": "eh_frame",
+                    "value": 7
+                },
+                {
+                    "name": "macinfo",
+                    "value": 8
+                },
+                {
+                    "name": "macro",
+                    "value": 9
+                },
+                {
+                    "name": "str",
+                    "value": 10
+                },
+                {
+                    "name": "loc",
+                    "value": 11
+                },
+                {
+                    "name": "pubtypes",
+                    "value": 12
+                },
+                {
+                    "name": "gnu_pubtypes",
+                    "value": 13
+                },
+                {
+                    "name": "ranges",
+                    "value": 14
+                },
+                {
+                    "name": "static_func",
+                    "value": 15
+                },
+                {
+                    "name": "static_vars",
+                    "value": 16
+                },
+                {
+                    "name": "types",
+                    "value": 17
+                },
+                {
+                    "name": "weaknames",
+                    "value": 18
+                },
+                {
+                    "name": "gdb_index",
+                    "value": 19
+                },
+                {
+                    "name": "trace_info",
+                    "value": 20
+                },
+                {
+                    "name": "trace_abbrev",
+                    "value": 21
+                },
+                {
+                    "name": "trace_aranges",
+                    "value": 22
+                },
+                {
+                    "name": "info_dwo",
+                    "value": 23
+                },
+                {
+                    "name": "abbrev_dwo",
+                    "value": 24
+                },
+                {
+                    "name": "types_dwo",
+                    "value": 25
+                },
+                {
+                    "name": "line_dwo",
+                    "value": 26
+                },
+                {
+                    "name": "loc_dwo",
+                    "value": 27
+                },
+                {
+                    "name": "macro_dwo",
+                    "value": 28
+                },
+                {
+                    "name": "macinfo_dwo",
+                    "value": 29
+                },
+                {
+                    "name": "str_dwo",
+                    "value": 30
+                },
+                {
+                    "name": "str_index",
+                    "value": 31
+                },
+                {
+                    "name": "str_index_dwo",
+                    "value": 32
+                },
+                {
+                    "name": "debug_addr",
+                    "value": 33
+                },
+                {
+                    "name": "dwp_cu_index",
+                    "value": 34
+                },
+                {
+                    "name": "dwp_tu_index",
+                    "value": 35
+                },
+                {
+                    "name": "max",
+                    "value": 36
+                }
+            ]
+        },
+        "133dd2553789c3bf11e7a91a87ec15e2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "user_data"
+        },
+        "306894b07d2e7865f5b20bbe68fda71b": {
+            "name": "dwarf_section",
+            "size": 64,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "uncompressed_name",
+                    "type": "1ca91d63d4e2b6678c37f2ed2a77209b",
+                    "offset": 0
+                },
+                {
+                    "name": "compressed_name",
+                    "type": "6887cd87c9177d3cf9fcb35d4152399a",
+                    "offset": 8
+                },
+                {
+                    "name": "name",
+                    "type": "9450ff46b2d7eba8775945121a39c372",
+                    "offset": 16
+                },
+                {
+                    "name": "start",
+                    "type": "eea63d768ec028295ea4989d42c2b106",
+                    "offset": 24
+                },
+                {
+                    "name": "address",
+                    "type": "f5a8238f801749618447d259c87f4a33",
+                    "offset": 32
+                },
+                {
+                    "name": "size",
+                    "type": "9e7bbeccf63eeaa64e6545b8b9d14095",
+                    "offset": 40
+                },
+                {
+                    "name": "abbrev_sec",
+                    "type": "4ca870a2dad572506cfb73b882821273",
+                    "offset": 48
+                },
+                {
+                    "name": "user_data",
+                    "type": "133dd2553789c3bf11e7a91a87ec15e2",
+                    "offset": 56
+                }
+            ]
+        },
+        "fadb6ab6d8317e9a595c98410f4e070f": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "display"
+        },
+        "e2ca902485b0279ac3c2522300984f89": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "enabled"
+        },
+        "3adae3ca0dc97ab01b079985a4b4120d": {
+            "name": "dwarf_section_display",
+            "size": 88,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "section",
+                    "type": "306894b07d2e7865f5b20bbe68fda71b",
+                    "offset": 0
+                },
+                {
+                    "name": "display",
+                    "type": "fadb6ab6d8317e9a595c98410f4e070f",
+                    "offset": 64
+                },
+                {
+                    "name": "enabled",
+                    "type": "e2ca902485b0279ac3c2522300984f89",
+                    "offset": 72
+                },
+                {
+                    "name": "relocate",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087"
+                }
+            ]
+        },
+        "5184477f2bac43127b5b8a93f46638f4": {
+            "class": "Array",
+            "name": "debug_displays",
+            "size": 0,
+            "counts": [],
+            "underlying_type": {
+                "name": "dwarf_section_display",
+                "size": 88,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "section",
+                        "type": "306894b07d2e7865f5b20bbe68fda71b",
+                        "offset": 0
+                    },
+                    {
+                        "name": "display",
+                        "type": "fadb6ab6d8317e9a595c98410f4e070f",
+                        "offset": 64
+                    },
+                    {
+                        "name": "enabled",
+                        "type": "e2ca902485b0279ac3c2522300984f89",
+                        "offset": 72
+                    },
+                    {
+                        "name": "relocate",
+                        "type": "23c8dbaade46c0452e1e8a42755e7087"
+                    }
+                ]
+            }
+        },
+        "6015e0cf2f79d10fe1fcb0bb5fd411e6": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer",
+            "constant": true
+        },
+        "6891750ebebb2cea8eaa4107eda7c4d1": {
+            "type": "6015e0cf2f79d10fe1fcb0bb5fd411e6"
+        },
+        "c2135a12656c1f53b324cd56b652942f": {
+            "class": "Array",
+            "name": "unknown",
+            "size": 0,
+            "counts": [
+                256
+            ],
+            "constant": true,
+            "underlying_type": {
+                "type": "6015e0cf2f79d10fe1fcb0bb5fd411e6"
+            }
+        },
+        "cce0dce812f6592ddb0b5f42faa3ae97": {
+            "type": "c2135a12656c1f53b324cd56b652942f"
+        },
+        "429c83eaa3c39f1d4c7f1e50a4b2d012": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "23c8dbaade46c0452e1e8a42755e7087"
+            },
+            "name": "section_subset"
+        },
+        "ad098f086a58355e394a956e33f1dbf8": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            }
+        },
+        "422be5ffce23b5a8d3bda95ebc46cff3": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "restrict": true
+        },
+        "6792cec36d135df2f2acc92f958f28c5": {
+            "type": "422be5ffce23b5a8d3bda95ebc46cff3"
+        },
+        "eb20939bd60e4d5ffd32ebdc2879c510": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "restrict": true
+        },
+        "bee3fbe4a722548b53c1fbfcdea4e753": {
+            "type": "eb20939bd60e4d5ffd32ebdc2879c510"
+        },
+        "e2c7b4475ba2d763edea354e6391be93": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "tm_zone"
+        },
+        "d35d32050ced86087988ce46479fbdc1": {
+            "name": "tm",
+            "size": 56,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "tm_sec",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "tm_min",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 4
+                },
+                {
+                    "name": "tm_hour",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 8
+                },
+                {
+                    "name": "tm_mday",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 12
+                },
+                {
+                    "name": "tm_mon",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 16
+                },
+                {
+                    "name": "tm_year",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 20
+                },
+                {
+                    "name": "tm_wday",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 24
+                },
+                {
+                    "name": "tm_yday",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 28
+                },
+                {
+                    "name": "tm_isdst",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 32
+                },
+                {
+                    "name": "tm_gmtoff",
+                    "type": "abe75cc58bf0465f278804f771c3367e",
+                    "offset": 40
+                },
+                {
+                    "name": "tm_zone",
+                    "type": "e2c7b4475ba2d763edea354e6391be93",
+                    "offset": 48
+                }
+            ]
+        },
+        "c8f66ca2fe5c1f050ed454c03f559047": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d35d32050ced86087988ce46479fbdc1"
+            },
+            "name": "gmtime"
+        },
+        "661db3243d70a5f9e0fabc23b262e9bf": {
+            "name": "__time_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "2077bfe77dce40be6ad5f214c697353d": {
+            "name": "time_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__time_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "long int",
+                    "size": 8,
+                    "class": "Integer"
+                },
+                "size": 8
+            },
+            "size": 8,
+            "constant": true
+        },
+        "720b51c3de7385e2fba8c1ba3edd3e4a": {
+            "type": "2077bfe77dce40be6ad5f214c697353d"
+        },
+        "eb83bb904a85498804d7820f98e42eec": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "720b51c3de7385e2fba8c1ba3edd3e4a"
+            }
+        },
+        "579d5a95ae9a903aa85990155d64704a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            }
+        },
+        "865903ea1c7ce265a4d594f534d0f090": {
+            "name": "wchar_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "a78bd35982603511334a6b1ce1514601": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "865903ea1c7ce265a4d594f534d0f090"
+            },
+            "restrict": true
+        },
+        "7a72ded97f2befe1006a4b791b043a86": {
+            "type": "a78bd35982603511334a6b1ce1514601"
+        },
+        "609c5269a3bf6cdc5e0a47b092377d36": {
+            "class": "Array",
+            "name": "__wchb",
+            "size": 4,
+            "counts": [
+                4
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "602c94dba09f53fd5be7b0749919f04f": {
+            "name": "unknown",
+            "size": 4,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "__wch",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087"
+                },
+                {
+                    "name": "__wchb",
+                    "type": "609c5269a3bf6cdc5e0a47b092377d36"
+                }
+            ]
+        },
+        "f1397e343940310566722fcf8d15647b": {
+            "name": "unknown",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "__count",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "__value",
+                    "type": "602c94dba09f53fd5be7b0749919f04f",
+                    "offset": 4
+                }
+            ]
+        },
+        "b1e6eba75293cc886427aa6ade78bf79": {
+            "name": "__mbstate_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "unknown",
+                "size": 8,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "__count",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 0
+                    },
+                    {
+                        "name": "__value",
+                        "type": "602c94dba09f53fd5be7b0749919f04f",
+                        "offset": 4
+                    }
+                ]
+            },
+            "size": 8
+        },
+        "3e3c68eca1aa1ddca6022a1262edb93d": {
+            "name": "mbstate_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__mbstate_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "name": "unknown",
+                    "size": 8,
+                    "class": "Struct",
+                    "fields": [
+                        {
+                            "name": "__count",
+                            "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                            "offset": 0
+                        },
+                        {
+                            "name": "__value",
+                            "type": "602c94dba09f53fd5be7b0749919f04f",
+                            "offset": 4
+                        }
+                    ]
+                },
+                "size": 8
+            },
+            "size": 8
+        },
+        "732c566b1b9aa02f2ac990a49b102ffe": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "3e3c68eca1aa1ddca6022a1262edb93d"
+            },
+            "restrict": true
+        },
+        "0e627dc35e7d1cef38e5fbeb2eb2c154": {
+            "type": "732c566b1b9aa02f2ac990a49b102ffe"
+        },
+        "e4a243679d5b550fb765690a8b91839b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "49e111b085539ceb01a107b9de281a66"
+            },
+            "name": "fopen"
+        },
+        "c7a3b187df315aadd41a95ad8d124243": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "strerror"
+        },
+        "2abbb09a543a102ac4e94e0b821934fe": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "__errno_location"
+        },
+        "ee7c83c90229040d4cbf6317a8c193ed": {
+            "name": "__dev_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "1353f249fe41914243ab172741de8098": {
+            "name": "__ino_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "d5c61a977e231bf20858c7fba73c0585": {
+            "name": "__nlink_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "bf67c3bf1f6fd6acdeb6dbac7f554d16": {
+            "name": "__mode_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "d9881b67b470e472880455ed1395cb52": {
+            "name": "__uid_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "a8b62564b47123909141e9502c1006d0": {
+            "name": "__gid_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "656c27810664749c125b58b3552f32c1": {
+            "name": "__blksize_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "ff80d2349192bf23a0f00f9fd5f0d96f": {
+            "name": "__blkcnt_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "b830a280b6313d9af8c711a13cc76bc0": {
+            "name": "__syscall_slong_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "5ffbe5512fe52e903db8630cf2c2ed4d": {
+            "name": "timespec",
+            "size": 16,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "tv_sec",
+                    "type": "661db3243d70a5f9e0fabc23b262e9bf",
+                    "offset": 0
+                },
+                {
+                    "name": "tv_nsec",
+                    "type": "b830a280b6313d9af8c711a13cc76bc0",
+                    "offset": 8
+                }
+            ]
+        },
+        "951be7a8f7b7c9529c04ed5f5e695a88": {
+            "class": "Array",
+            "name": "__glibc_reserved",
+            "size": 24,
+            "counts": [
+                3
+            ],
+            "underlying_type": {
+                "name": "__syscall_slong_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "long int",
+                    "size": 8,
+                    "class": "Integer"
+                },
+                "size": 8
+            }
+        },
+        "55d9f4ef73a7266e989ae7722f16db39": {
+            "name": "stat",
+            "size": 144,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "st_dev",
+                    "type": "ee7c83c90229040d4cbf6317a8c193ed",
+                    "offset": 0
+                },
+                {
+                    "name": "st_ino",
+                    "type": "1353f249fe41914243ab172741de8098",
+                    "offset": 8
+                },
+                {
+                    "name": "st_nlink",
+                    "type": "d5c61a977e231bf20858c7fba73c0585",
+                    "offset": 16
+                },
+                {
+                    "name": "st_mode",
+                    "type": "bf67c3bf1f6fd6acdeb6dbac7f554d16",
+                    "offset": 24
+                },
+                {
+                    "name": "st_uid",
+                    "type": "d9881b67b470e472880455ed1395cb52",
+                    "offset": 28
+                },
+                {
+                    "name": "st_gid",
+                    "type": "a8b62564b47123909141e9502c1006d0",
+                    "offset": 32
+                },
+                {
+                    "name": "__pad0",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 36
+                },
+                {
+                    "name": "st_rdev",
+                    "type": "ee7c83c90229040d4cbf6317a8c193ed",
+                    "offset": 40
+                },
+                {
+                    "name": "st_size",
+                    "type": "668dc562a865d56b0091e306b6b9592f",
+                    "offset": 48
+                },
+                {
+                    "name": "st_blksize",
+                    "type": "656c27810664749c125b58b3552f32c1",
+                    "offset": 56
+                },
+                {
+                    "name": "st_blocks",
+                    "type": "ff80d2349192bf23a0f00f9fd5f0d96f",
+                    "offset": 64
+                },
+                {
+                    "name": "st_atim",
+                    "type": "5ffbe5512fe52e903db8630cf2c2ed4d",
+                    "offset": 72
+                },
+                {
+                    "name": "st_mtim",
+                    "type": "5ffbe5512fe52e903db8630cf2c2ed4d",
+                    "offset": 88
+                },
+                {
+                    "name": "st_ctim",
+                    "type": "5ffbe5512fe52e903db8630cf2c2ed4d",
+                    "offset": 104
+                },
+                {
+                    "name": "__glibc_reserved",
+                    "type": "951be7a8f7b7c9529c04ed5f5e695a88",
+                    "offset": 120
+                }
+            ]
+        },
+        "b95453e1c5a956cc48dec13c199e5313": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "55d9f4ef73a7266e989ae7722f16db39"
+            },
+            "restrict": true
+        },
+        "de40018e40b14e6510cf62d0c98d4f19": {
+            "type": "b95453e1c5a956cc48dec13c199e5313"
+        },
+        "598a1401d91ec64d45918b77a43c9f60": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "strdup"
+        },
+        "5711a1093e6b7d4a1337da8232834664": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "calloc"
+        },
+        "6299ceae85729e684e099b7949f6af95": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "constant": true
+        },
+        "0a359105911054fb119faad976dd2309": {
+            "type": "6299ceae85729e684e099b7949f6af95"
+        },
+        "1b4f31c5a3867ad1b06e47a3a721e42a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0a359105911054fb119faad976dd2309"
+            }
+        },
+        "ccd70f8497c61242736e303220272583": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "flag"
+        },
+        "c6a9cd92eff5ab57ad885a6457406a70": {
+            "name": "option",
+            "size": 32,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "9450ff46b2d7eba8775945121a39c372",
+                    "offset": 0
+                },
+                {
+                    "name": "has_arg",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 8
+                },
+                {
+                    "name": "flag",
+                    "type": "ccd70f8497c61242736e303220272583",
+                    "offset": 16
+                },
+                {
+                    "name": "val",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 24
+                }
+            ],
+            "constant": true
+        },
+        "d114168ef53b451b3cfd27f71771e224": {
+            "type": "c6a9cd92eff5ab57ad885a6457406a70"
+        },
+        "3c6edb3d70366c224d8f9bf149cb9520": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d114168ef53b451b3cfd27f71771e224"
+            }
+        },
+        "e4261c53eaa200fc9e93d664526ff776": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            }
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "88c031bff537ee112e1753b1f0713b0e": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "restrict": true
+        },
+        "ba5ed3eb9d0e15764c67f4ed932fe059": {
+            "type": "88c031bff537ee112e1753b1f0713b0e"
+        },
+        "308752f9f85af30e6441a2f51c923c7f": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "libintl_textdomain"
+        },
+        "cb8fde14063a7e74e0131ede8771f195": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "libintl_bindtextdomain"
+        },
+        "7f7911d6a37f0f3d8f865a1404b7a43c": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "setlocale"
+        },
+        "2852ed6a5ab15f68a548740946b382b5": {
+            "name": "Byte",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned char",
+                "size": 1,
+                "class": "Integer"
+            },
+            "size": 1
+        },
+        "ba3d9331a7636d29fd4c6170a86cca39": {
+            "name": "Bytef",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "Byte",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "type": "unsigned char",
+                    "size": 1,
+                    "class": "Integer"
+                },
+                "size": 1
+            },
+            "size": 1
+        },
+        "10022c4f8c5f692fd903ab33f25b417a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ba3d9331a7636d29fd4c6170a86cca39"
+            },
+            "name": "next_in"
+        },
+        "d111bf2facbc5ffc5a581b93ffa86741": {
+            "name": "uInt",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "3b6369080a4c245c3c1382d16ed41229": {
+            "name": "uLong",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "a5acfd1380f1c17a3e44fef7110e1826": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "ba3d9331a7636d29fd4c6170a86cca39"
+            },
+            "name": "next_out"
+        },
+        "db80790e8c8f1ad0da05c52728f760f2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "msg"
+        },
+        "0cee1e52d599d987ed582026c4654e2e": {
+            "name": "internal_state",
+            "size": 0,
+            "class": "Struct"
+        },
+        "c5595ce965dbd6d76c9f18ba34558185": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0cee1e52d599d987ed582026c4654e2e"
+            },
+            "name": "state"
+        },
+        "8e3e27375b357360b0e61e803d93c184": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "alloc_func"
+        },
+        "4f49dcee8c0f16d44d9f4d3247c0bd26": {
+            "name": "alloc_func",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                },
+                "name": "alloc_func"
+            },
+            "size": 8
+        },
+        "6641cd7d441160a2573fb5147bdc9440": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "free_func"
+        },
+        "9ed3b1de3b46ba4325b611c68efb741b": {
+            "name": "free_func",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                },
+                "name": "free_func"
+            },
+            "size": 8
+        },
+        "51c26ed2b37aa54edcc54f5622cd2a5f": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "voidpf"
+        },
+        "08b689a7270998f08e2f7739ceb37d90": {
+            "name": "voidpf",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                },
+                "name": "voidpf"
+            },
+            "size": 8
+        },
+        "0dc94890b7f2878a65f09fbf683a7fa9": {
+            "name": "z_stream_s",
+            "size": 112,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "next_in",
+                    "type": "10022c4f8c5f692fd903ab33f25b417a",
+                    "offset": 0
+                },
+                {
+                    "name": "avail_in",
+                    "type": "d111bf2facbc5ffc5a581b93ffa86741",
+                    "offset": 8
+                },
+                {
+                    "name": "total_in",
+                    "type": "3b6369080a4c245c3c1382d16ed41229",
+                    "offset": 16
+                },
+                {
+                    "name": "next_out",
+                    "type": "a5acfd1380f1c17a3e44fef7110e1826",
+                    "offset": 24
+                },
+                {
+                    "name": "avail_out",
+                    "type": "d111bf2facbc5ffc5a581b93ffa86741",
+                    "offset": 32
+                },
+                {
+                    "name": "total_out",
+                    "type": "3b6369080a4c245c3c1382d16ed41229",
+                    "offset": 40
+                },
+                {
+                    "name": "msg",
+                    "type": "db80790e8c8f1ad0da05c52728f760f2",
+                    "offset": 48
+                },
+                {
+                    "name": "state",
+                    "type": "c5595ce965dbd6d76c9f18ba34558185",
+                    "offset": 56
+                },
+                {
+                    "name": "zalloc",
+                    "type": "4f49dcee8c0f16d44d9f4d3247c0bd26",
+                    "offset": 64
+                },
+                {
+                    "name": "zfree",
+                    "type": "9ed3b1de3b46ba4325b611c68efb741b",
+                    "offset": 72
+                },
+                {
+                    "name": "opaque",
+                    "type": "08b689a7270998f08e2f7739ceb37d90",
+                    "offset": 80
+                },
+                {
+                    "name": "data_type",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 88
+                },
+                {
+                    "name": "adler",
+                    "type": "3b6369080a4c245c3c1382d16ed41229",
+                    "offset": 96
+                },
+                {
+                    "name": "reserved",
+                    "type": "3b6369080a4c245c3c1382d16ed41229",
+                    "offset": 104
+                }
+            ]
+        },
+        "89ebbee2e841bc0843a84a3a5973af00": {
+            "name": "z_stream",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "z_stream_s",
+                "size": 112,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "next_in",
+                        "type": "10022c4f8c5f692fd903ab33f25b417a",
+                        "offset": 0
+                    },
+                    {
+                        "name": "avail_in",
+                        "type": "d111bf2facbc5ffc5a581b93ffa86741",
+                        "offset": 8
+                    },
+                    {
+                        "name": "total_in",
+                        "type": "3b6369080a4c245c3c1382d16ed41229",
+                        "offset": 16
+                    },
+                    {
+                        "name": "next_out",
+                        "type": "a5acfd1380f1c17a3e44fef7110e1826",
+                        "offset": 24
+                    },
+                    {
+                        "name": "avail_out",
+                        "type": "d111bf2facbc5ffc5a581b93ffa86741",
+                        "offset": 32
+                    },
+                    {
+                        "name": "total_out",
+                        "type": "3b6369080a4c245c3c1382d16ed41229",
+                        "offset": 40
+                    },
+                    {
+                        "name": "msg",
+                        "type": "db80790e8c8f1ad0da05c52728f760f2",
+                        "offset": 48
+                    },
+                    {
+                        "name": "state",
+                        "type": "c5595ce965dbd6d76c9f18ba34558185",
+                        "offset": 56
+                    },
+                    {
+                        "name": "zalloc",
+                        "type": "4f49dcee8c0f16d44d9f4d3247c0bd26",
+                        "offset": 64
+                    },
+                    {
+                        "name": "zfree",
+                        "type": "9ed3b1de3b46ba4325b611c68efb741b",
+                        "offset": 72
+                    },
+                    {
+                        "name": "opaque",
+                        "type": "08b689a7270998f08e2f7739ceb37d90",
+                        "offset": 80
+                    },
+                    {
+                        "name": "data_type",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 88
+                    },
+                    {
+                        "name": "adler",
+                        "type": "3b6369080a4c245c3c1382d16ed41229",
+                        "offset": 96
+                    },
+                    {
+                        "name": "reserved",
+                        "type": "3b6369080a4c245c3c1382d16ed41229",
+                        "offset": 104
+                    }
+                ]
+            },
+            "size": 112
+        },
+        "3764e7ef69ecc74b51983bab8ae17d9a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "89ebbee2e841bc0843a84a3a5973af00"
+            },
+            "name": "z_streamp"
+        },
+        "740a1d84d8e9338ec38b157d42d7acbd": {
+            "name": "z_streamp",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "89ebbee2e841bc0843a84a3a5973af00"
+                },
+                "name": "z_streamp"
+            },
+            "size": 8
+        },
+        "e5d7e2f0a8519fc88a5c4b4726195897": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "restrict": true
+        },
+        "33b341b18feb05cd169b937bd2503eab": {
+            "type": "e5d7e2f0a8519fc88a5c4b4726195897"
+        },
+        "6e32a5dda46ad3be2aa32ad15f363f31": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            }
+        },
+        "3aeb958f4b4a9b811df2ab8db8ef3bf9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "malloc"
+        },
+        "0f505e1e9da2946969b3ec7b058c09af": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "libintl_gettext"
+        },
+        "955aa254db5416250357d1cee6fb4ada": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "strncpy"
+        },
+        "df0656b932eb859fbdb761ff2c8ea6c8": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "restrict": true
+        },
+        "d6c6efd9baa3cc79795de0044d42584e": {
+            "type": "df0656b932eb859fbdb761ff2c8ea6c8"
+        },
+        "c56daf215eabecb12e82fee261b1d5d1": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "stpcpy"
+        },
+        "e083bc2adc4dec237f0bd5346ae9d6e0": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            },
+            "name": "strcpy"
+        },
+        "62e1b3f06848be367db98a73d70e63ac": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memset"
+        },
+        "9f817ad055cb2f61400a63bfe45da245": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "__dest"
+        },
+        "6dccf0310c4ad89460bb2ac6413c8818": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memcpy"
+        },
+        "020df1952a91a123ea259028a7dcb599": {
+            "type": "094f321fd5bb8d08c33f220ea53625d9"
+        },
+        "dec02e33cbaf85c4c55955f5e1f698c2": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "020df1952a91a123ea259028a7dcb599"
+            },
+            "restrict": true
+        },
+        "b67f3dfb2dc38c48bdabb9ab38054e8d": {
+            "type": "dec02e33cbaf85c4c55955f5e1f698c2"
+        },
+        "f0732f0297b948cb904d6f460c6cde06": {
+            "type": "long long int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "29918e3f0d62cea881145ff6966ab557": {
+            "name": "BFD_RELOC_8_FFnn",
+            "size": 0,
+            "type": "094f321fd5bb8d08c33f220ea53625d9",
+            "class": "Enum"
+        },
+        "9ab3fbc4a798efad1060e906538682cd": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "c334bd3059515419976afe665099cef9": {
+            "type": "9ab3fbc4a798efad1060e906538682cd"
+        },
+        "dbc943539e55774e57b531e6a0e987f5": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "e2cdb1d971a93ab9269414059960fd7b"
+            },
+            "name": "__src"
+        }
+    }
+}

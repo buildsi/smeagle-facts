@@ -1,0 +1,1255 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-broadwell/gcc-11.2.0/libiconv-1.16-a2me5btkg32sgfr2g3vdll7jr5rptijh/lib/libiconv.so.2.6.1",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "_libiconv_version",
+                    "location": "var",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "qsort",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "32d395f24c85d5b9139828c2e7dc5c45",
+                        "location": "%rcx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "abort",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "3aeb958f4b4a9b811df2ab8db8ef3bf9",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__errno_location",
+                "class": "Function",
+                "return": {
+                    "type": "2abbb09a543a102ac4e94e0b821934fe",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "type": "579d5a95ae9a903aa85990155d64704a",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "iconv_canonicalize",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "type": "9450ff46b2d7eba8775945121a39c372",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "a1969099a120e6a89f52a9b2089b61d7",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconvlist",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "do_one",
+                        "type": "a25002e74be203526f7909de97038043",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "data",
+                        "type": "9d0c4291c1bdee192a67b8bd6c6f6f46",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconvctl",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "1235229467b60c641b6f56309881b0a8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "request",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "argument",
+                        "type": "20593532f7b1744b438bb2f88421b27b",
+                        "location": "%rdx",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_open_into",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "tocode",
+                        "type": "bb60e4d7594f3803702b7b1618766e6a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "fromcode",
+                        "type": "0f0d5b2dbfd79d1603c0ce71ddfb4ebe",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "resultp",
+                        "type": "e1d9356c0c54c4760869c001e743043f",
+                        "location": "%rdx",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_close",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "1235229467b60c641b6f56309881b0a8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "icd",
+                        "type": "1235229467b60c641b6f56309881b0a8",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "inbuf",
+                        "type": "670e42ddfbfca02fff5b2af0a3072c14",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "inbytesleft",
+                        "type": "7aa46bb12d76981116a8be58c3f48d37",
+                        "location": "%rdx",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "outbuf",
+                        "type": "2c2875b20b35c18322f89faa474e6ed6",
+                        "location": "%rcx",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "outbytesleft",
+                        "type": "7450aa918b31d28b4329ccaa1dfe3039",
+                        "location": "%r8",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "18a1655c0d6e5784b11d64496b967364",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_open",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "tocode",
+                        "type": "bb60e4d7594f3803702b7b1618766e6a",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "fromcode",
+                        "type": "0f0d5b2dbfd79d1603c0ce71ddfb4ebe",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "1235229467b60c641b6f56309881b0a8",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "33b341b18feb05cd169b937bd2503eab"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "ae2a4f43d1afcc6440b9d8aa2dff69d0"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "18a1655c0d6e5784b11d64496b967364",
+                        "location": "%rdi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "6dccf0310c4ad89460bb2ac6413c8818",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "nl_langinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "acfd72c27fc859df2b539dc10183f501"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "libiconv_set_relocation_prefix",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "orig_prefix_arg",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "curr_prefix_arg",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "05b815e4272c07deebdea29987e8704d"
+                    }
+                ],
+                "return": {
+                    "type": "05b815e4272c07deebdea29987e8704d",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "05b815e4272c07deebdea29987e8704d": {
+            "type": "unknown",
+            "class": "Unknown",
+            "constant": true
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "6e32a5dda46ad3be2aa32ad15f363f31": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            }
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "18a1655c0d6e5784b11d64496b967364": {
+            "name": "size_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "long unsigned int",
+                "size": 8,
+                "class": "Integer"
+            },
+            "size": 8
+        },
+        "3136b53c7788b73670691bd7c934571c": {
+            "type": "unknown"
+        },
+        "c82c8b109a2930b6471893ba2d9bc477": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "__compar_fn_t"
+        },
+        "32d395f24c85d5b9139828c2e7dc5c45": {
+            "name": "__compar_fn_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                },
+                "name": "__compar_fn_t"
+            },
+            "size": 8
+        },
+        "3aeb958f4b4a9b811df2ab8db8ef3bf9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "malloc"
+        },
+        "2abbb09a543a102ac4e94e0b821934fe": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "9c67aaa6ef89dd4db8543f00bd1f472f"
+            },
+            "name": "__errno_location"
+        },
+        "2e0e007ca62f5c7d30de939c16602814": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "50881d94c6772b0b19a5ab06608b1ac1": {
+            "type": "2e0e007ca62f5c7d30de939c16602814"
+        },
+        "579d5a95ae9a903aa85990155d64704a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            }
+        },
+        "a1969099a120e6a89f52a9b2089b61d7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "iconv_canonicalize"
+        },
+        "9450ff46b2d7eba8775945121a39c372": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "name"
+        },
+        "a25002e74be203526f7909de97038043": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "do_one"
+        },
+        "9d0c4291c1bdee192a67b8bd6c6f6f46": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "data"
+        },
+        "5d2b6a948bd3c97d58feaa1c6149d4dd": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "libiconv_t"
+        },
+        "1235229467b60c641b6f56309881b0a8": {
+            "name": "libiconv_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                },
+                "name": "libiconv_t"
+            },
+            "size": 8
+        },
+        "20593532f7b1744b438bb2f88421b27b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "argument"
+        },
+        "bb60e4d7594f3803702b7b1618766e6a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "tocode"
+        },
+        "0f0d5b2dbfd79d1603c0ce71ddfb4ebe": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "50881d94c6772b0b19a5ab06608b1ac1"
+            },
+            "name": "fromcode"
+        },
+        "49415f1a279a15aa1b1b59f7c704d498": {
+            "class": "Array",
+            "name": "dummy1",
+            "size": 224,
+            "counts": [
+                28
+            ],
+            "underlying_type": {
+                "class": "Pointer",
+                "size": 8,
+                "underlying_type": {
+                    "type": "4fc7ba059a1711e8c26bd491510ea170"
+                }
+            }
+        },
+        "23c8dbaade46c0452e1e8a42755e7087": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "609c5269a3bf6cdc5e0a47b092377d36": {
+            "class": "Array",
+            "name": "__wchb",
+            "size": 4,
+            "counts": [
+                4
+            ],
+            "underlying_type": {
+                "type": "char",
+                "size": 1,
+                "class": "Integer"
+            }
+        },
+        "602c94dba09f53fd5be7b0749919f04f": {
+            "name": "unknown",
+            "size": 4,
+            "class": "Union",
+            "fields": [
+                {
+                    "name": "__wch",
+                    "type": "23c8dbaade46c0452e1e8a42755e7087"
+                },
+                {
+                    "name": "__wchb",
+                    "type": "609c5269a3bf6cdc5e0a47b092377d36"
+                }
+            ]
+        },
+        "f1397e343940310566722fcf8d15647b": {
+            "name": "unknown",
+            "size": 8,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "__count",
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "offset": 0
+                },
+                {
+                    "name": "__value",
+                    "type": "602c94dba09f53fd5be7b0749919f04f",
+                    "offset": 4
+                }
+            ]
+        },
+        "b1e6eba75293cc886427aa6ade78bf79": {
+            "name": "__mbstate_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "unknown",
+                "size": 8,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "__count",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "offset": 0
+                    },
+                    {
+                        "name": "__value",
+                        "type": "602c94dba09f53fd5be7b0749919f04f",
+                        "offset": 4
+                    }
+                ]
+            },
+            "size": 8
+        },
+        "3e3c68eca1aa1ddca6022a1262edb93d": {
+            "name": "mbstate_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "__mbstate_t",
+                "class": "TypeDef",
+                "underlying_type": {
+                    "name": "unknown",
+                    "size": 8,
+                    "class": "Struct",
+                    "fields": [
+                        {
+                            "name": "__count",
+                            "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                            "offset": 0
+                        },
+                        {
+                            "name": "__value",
+                            "type": "602c94dba09f53fd5be7b0749919f04f",
+                            "offset": 4
+                        }
+                    ]
+                },
+                "size": 8
+            },
+            "size": 8
+        },
+        "2550bac076ce34608415ddb5fcf03490": {
+            "name": "unknown",
+            "size": 232,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "dummy1",
+                    "type": "49415f1a279a15aa1b1b59f7c704d498",
+                    "offset": 0
+                },
+                {
+                    "name": "dummy2",
+                    "type": "3e3c68eca1aa1ddca6022a1262edb93d",
+                    "offset": 224
+                }
+            ]
+        },
+        "47b2e4f81df0a667ef19b19b4d89dc28": {
+            "name": "iconv_allocation_t",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "unknown",
+                "size": 232,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "dummy1",
+                        "type": "49415f1a279a15aa1b1b59f7c704d498",
+                        "offset": 0
+                    },
+                    {
+                        "name": "dummy2",
+                        "type": "3e3c68eca1aa1ddca6022a1262edb93d",
+                        "offset": 224
+                    }
+                ]
+            },
+            "size": 232
+        },
+        "e1d9356c0c54c4760869c001e743043f": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "47b2e4f81df0a667ef19b19b4d89dc28"
+            },
+            "name": "resultp"
+        },
+        "7e23b4d1fe940040810be7a419c68aff": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "dbef5bff425a8e631e2bc5fba7cc20e6"
+            }
+        },
+        "670e42ddfbfca02fff5b2af0a3072c14": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "inbuf"
+        },
+        "7aa46bb12d76981116a8be58c3f48d37": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "18a1655c0d6e5784b11d64496b967364"
+            },
+            "name": "inbytesleft"
+        },
+        "2c2875b20b35c18322f89faa474e6ed6": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "7e23b4d1fe940040810be7a419c68aff"
+            },
+            "name": "outbuf"
+        },
+        "7450aa918b31d28b4329ccaa1dfe3039": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "18a1655c0d6e5784b11d64496b967364"
+            },
+            "name": "outbytesleft"
+        },
+        "6dccf0310c4ad89460bb2ac6413c8818": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memcpy"
+        },
+        "e5d7e2f0a8519fc88a5c4b4726195897": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "restrict": true
+        },
+        "33b341b18feb05cd169b937bd2503eab": {
+            "type": "e5d7e2f0a8519fc88a5c4b4726195897"
+        },
+        "046815e3c73d9d22fc5e0c7974011925": {
+            "type": "05b815e4272c07deebdea29987e8704d"
+        },
+        "5ab89775bc91c14a5fd2aded45a61da9": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "046815e3c73d9d22fc5e0c7974011925"
+            },
+            "restrict": true
+        },
+        "ae2a4f43d1afcc6440b9d8aa2dff69d0": {
+            "type": "5ab89775bc91c14a5fd2aded45a61da9"
+        },
+        "84fe6c98d0be9c5294fc4a6acbb94925": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer",
+            "constant": true
+        },
+        "acfd72c27fc859df2b539dc10183f501": {
+            "type": "84fe6c98d0be9c5294fc4a6acbb94925"
+        }
+    }
+}

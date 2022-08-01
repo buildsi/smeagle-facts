@@ -1,0 +1,3326 @@
+{
+    "library": "/spack/opt/spack/linux-ubuntu22.04-broadwell/gcc-11.2.0/pcre-8.38-ivfktxkygxwct5ls4grfcx526oxe5cr2/lib/libpcre.so.1.2.6",
+    "locations": [
+        {
+            "variables": [
+                {
+                    "name": "pcre_malloc",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "pcre_free",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "pcre_stack_guard",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utf8_table4",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utt_names",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utt",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utt_size",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_OP_lengths",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_default_tables",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_hspace_list",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_vspace_list",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucd_caseless_sets",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucd_records",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucd_stage1",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucd_stage2",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucp_gentype",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "pcre_callout",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_ucp_gbtable",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "pcre_stack_malloc",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "pcre_stack_free",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utf8_table1",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utf8_table1_size",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utf8_table2",
+                    "location": "var",
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "import"
+                },
+                {
+                    "name": "_pcre_utf8_table3",
+                    "location": "var",
+                    "type": "4daddbf38a6c492eda762068980f188d",
+                    "direction": "import"
+                }
+            ]
+        },
+        {
+            "function": {
+                "name": "pcre_pattern_to_host_byte_order",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argument_re",
+                        "type": "62eb0e602eb49803b11f732602a53083",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "extra_data",
+                        "type": "ec67069acd2966220a7598c72cd685a6",
+                        "location": "%rsi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "tables",
+                        "type": "a3fa25308846e3e4eff72b80196efe16",
+                        "location": "%rdx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strlen",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_b_loc",
+                "class": "Function",
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strncmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_compile2",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "pattern",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "options",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "errorcodeptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "errorptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "erroroffset",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "tables",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_compile",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "pattern",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "options",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "errorptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "erroroffset",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "tables",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__memcpy_chk",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_config",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "what",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "where",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_dfa_exec",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argument_re",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "extra_data",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "length",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "start_offset",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "options",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "offsets",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "offsetcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rcx",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "workspace",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "wscount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%r8",
+                        "direction": "import"
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "6509b918841961f96fc9df084f97d12a",
+                        "location": "framebase+8",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "6509b918841961f96fc9df084f97d12a",
+                    "direction": "export",
+                    "location": "%st0"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "6509b918841961f96fc9df084f97d12a",
+                    "direction": "export",
+                    "location": "%st0"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memmove",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_exec",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argument_re",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "extra_data",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "length",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "start_offset",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "options",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "offsets",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "offsetcount",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcmp",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_fullinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argument_re",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "extra_data",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "what",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "where",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strcmp",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_fullinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rsi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_free_substring",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "pointer",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_get_named_substring",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "code",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "ovector",
+                        "type": "a85abca87f82556bb3bf64d655c510ee"
+                    },
+                    {
+                        "name": "stringcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stringname",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "stringptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%r8"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_get_substring",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "ovector",
+                        "type": "a85abca87f82556bb3bf64d655c510ee"
+                    },
+                    {
+                        "name": "stringcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stringnumber",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stringptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_free_substring_list",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "pointer",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_get_substring_list",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "ovector",
+                        "type": "a85abca87f82556bb3bf64d655c510ee"
+                    },
+                    {
+                        "name": "stringcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "listptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_copy_named_substring",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "code",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "ovector",
+                        "type": "a85abca87f82556bb3bf64d655c510ee"
+                    },
+                    {
+                        "name": "stringcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stringname",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "size",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_copy_substring",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "subject",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "ovector",
+                        "type": "a85abca87f82556bb3bf64d655c510ee"
+                    },
+                    {
+                        "name": "stringcount",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "stringnumber",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "buffer",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "size",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdx",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_get_stringtable_entries",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "code",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "stringname",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "firstptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "lastptr",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_get_stringnumber",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "code",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "stringname",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%rcx"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "6dccf0310c4ad89460bb2ac6413c8818",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "malloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_jit_free_unused_memory",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_assign_jit_stack",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "extra",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "callback",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "userdata",
+                        "type": "f338f96b6ffc0f79bcb5503767d6cbef",
+                        "location": "%rdi",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_jit_stack_free",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "stack",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_jit_stack_alloc",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "startsize",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "maxsize",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "strchr",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "95bb90ea69f1562e09eca2124a61da2b"
+                    },
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_toupper_loc",
+                "class": "Function",
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_b_loc",
+                "class": "Function",
+                "return": {
+                    "type": "a85abca87f82556bb3bf64d655c510ee",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__ctype_tolower_loc",
+                "class": "Function",
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_maketables",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_refcount",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "argument_re",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "adjust",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_fullinfo",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "type": "a498e89fc4dcc4c7b1a08929c64a3c63",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "type": "6e32a5dda46ad3be2aa32ad15f363f31",
+                        "location": "%rdx",
+                        "direction": "both"
+                    }
+                ],
+                "return": {
+                    "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_free_study",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "extra",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    }
+                ],
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_study",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "external_re",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "options",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "errorptr",
+                        "type": "0f65cf436719ea5cf1b494e0316e4bda"
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            },
+                            {
+                                "location": "%rsi"
+                            },
+                            {
+                                "location": "%rdx"
+                            },
+                            {
+                                "location": "%r8"
+                            },
+                            {
+                                "location": "%r9"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function",
+                        "parameters": [
+                            {
+                                "location": "%rdi"
+                            }
+                        ]
+                    },
+                    {
+                        "class": "Function"
+                    }
+                ],
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "function": {
+                "name": "memset",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "9f817ad055cb2f61400a63bfe45da245",
+                        "location": "%rdi",
+                        "direction": "both"
+                    },
+                    {
+                        "name": "__ch",
+                        "type": "9c67aaa6ef89dd4db8543f00bd1f472f",
+                        "location": "%rsi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "62e1b3f06848be367db98a73d70e63ac",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "memcpy",
+                "class": "Function",
+                "parameters": [
+                    {
+                        "name": "__dest",
+                        "type": "dbef5bff425a8e631e2bc5fba7cc20e6",
+                        "location": "%rdi",
+                        "direction": "import"
+                    },
+                    {
+                        "name": "__src",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    },
+                    {
+                        "name": "__len",
+                        "type": "094f321fd5bb8d08c33f220ea53625d9"
+                    }
+                ],
+                "return": {
+                    "type": "6dccf0310c4ad89460bb2ac6413c8818",
+                    "direction": "export",
+                    "location": "%rax"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "__stack_chk_fail",
+                "class": "Function",
+                "return": {
+                    "location": "none",
+                    "type": "void",
+                    "class": "Void",
+                    "direction": "export"
+                },
+                "direction": "import"
+            }
+        },
+        {
+            "function": {
+                "name": "pcre_version",
+                "class": "Function",
+                "return": {
+                    "type": "094f321fd5bb8d08c33f220ea53625d9",
+                    "direction": "export"
+                },
+                "direction": "export"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rcx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%r8"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%rcx"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    },
+                    {
+                        "location": "%rsi"
+                    },
+                    {
+                        "location": "%rdx"
+                    },
+                    {
+                        "location": "%r8"
+                    },
+                    {
+                        "location": "%r9"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function",
+                "parameters": [
+                    {
+                        "location": "%rdi"
+                    }
+                ]
+            }
+        },
+        {
+            "callsite": {
+                "class": "Function"
+            }
+        }
+    ],
+    "types": {
+        "9c67aaa6ef89dd4db8543f00bd1f472f": {
+            "type": "int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "c1b53411d0438aa1995b4a237998455b": {
+            "name": "real_pcre",
+            "size": 0,
+            "class": "Struct"
+        },
+        "74705540773f22776d924a57bbf19711": {
+            "name": "pcre",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "real_pcre",
+                "size": 0,
+                "class": "Struct"
+            },
+            "size": 0
+        },
+        "62eb0e602eb49803b11f732602a53083": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "74705540773f22776d924a57bbf19711"
+            },
+            "name": "argument_re"
+        },
+        "7a2f32ee5b8a01b41c1806555f194fe7": {
+            "type": "long unsigned int",
+            "size": 8,
+            "class": "Integer"
+        },
+        "094f321fd5bb8d08c33f220ea53625d9": {
+            "type": "unknown",
+            "class": "Unknown"
+        },
+        "4fc7ba059a1711e8c26bd491510ea170": {
+            "type": "void",
+            "class": "Void"
+        },
+        "143698a4ec0ec3432d905f888e67d987": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "study_data"
+        },
+        "858d463d6ce7fdb201f9b2b308df3201": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "callout_data"
+        },
+        "9ab3fbc4a798efad1060e906538682cd": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integer",
+            "constant": true
+        },
+        "c334bd3059515419976afe665099cef9": {
+            "type": "9ab3fbc4a798efad1060e906538682cd"
+        },
+        "a3fa25308846e3e4eff72b80196efe16": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "c334bd3059515419976afe665099cef9"
+            },
+            "name": "tables"
+        },
+        "d915d482818bc16287f636e3b3f16416": {
+            "type": "unsigned char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "0da927e0d14bf52f25b6b98354ac587b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d915d482818bc16287f636e3b3f16416"
+            }
+        },
+        "8a727a67867dbc4768bde5685e5745f7": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0da927e0d14bf52f25b6b98354ac587b"
+            },
+            "name": "mark"
+        },
+        "135eb12ac6113c2d203c099db6d4813a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "executable_jit"
+        },
+        "cd1acd5a246d211fb58d38003864535f": {
+            "name": "pcre_extra",
+            "size": 64,
+            "class": "Struct",
+            "fields": [
+                {
+                    "name": "flags",
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "offset": 0
+                },
+                {
+                    "name": "study_data",
+                    "type": "143698a4ec0ec3432d905f888e67d987",
+                    "offset": 8
+                },
+                {
+                    "name": "match_limit",
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "offset": 16
+                },
+                {
+                    "name": "callout_data",
+                    "type": "858d463d6ce7fdb201f9b2b308df3201",
+                    "offset": 24
+                },
+                {
+                    "name": "tables",
+                    "type": "a3fa25308846e3e4eff72b80196efe16",
+                    "offset": 32
+                },
+                {
+                    "name": "match_limit_recursion",
+                    "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                    "offset": 40
+                },
+                {
+                    "name": "mark",
+                    "type": "8a727a67867dbc4768bde5685e5745f7",
+                    "offset": 48
+                },
+                {
+                    "name": "executable_jit",
+                    "type": "135eb12ac6113c2d203c099db6d4813a",
+                    "offset": 56
+                }
+            ]
+        },
+        "8eeb383721ecfe3cf8b07667364adc61": {
+            "name": "pcre_extra",
+            "class": "TypeDef",
+            "underlying_type": {
+                "name": "pcre_extra",
+                "size": 64,
+                "class": "Struct",
+                "fields": [
+                    {
+                        "name": "flags",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "offset": 0
+                    },
+                    {
+                        "name": "study_data",
+                        "type": "143698a4ec0ec3432d905f888e67d987",
+                        "offset": 8
+                    },
+                    {
+                        "name": "match_limit",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "offset": 16
+                    },
+                    {
+                        "name": "callout_data",
+                        "type": "858d463d6ce7fdb201f9b2b308df3201",
+                        "offset": 24
+                    },
+                    {
+                        "name": "tables",
+                        "type": "a3fa25308846e3e4eff72b80196efe16",
+                        "offset": 32
+                    },
+                    {
+                        "name": "match_limit_recursion",
+                        "type": "7a2f32ee5b8a01b41c1806555f194fe7",
+                        "offset": 40
+                    },
+                    {
+                        "name": "mark",
+                        "type": "8a727a67867dbc4768bde5685e5745f7",
+                        "offset": 48
+                    },
+                    {
+                        "name": "executable_jit",
+                        "type": "135eb12ac6113c2d203c099db6d4813a",
+                        "offset": 56
+                    }
+                ]
+            },
+            "size": 64
+        },
+        "ec67069acd2966220a7598c72cd685a6": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "8eeb383721ecfe3cf8b07667364adc61"
+            },
+            "name": "extra_data"
+        },
+        "6509b918841961f96fc9df084f97d12a": {
+            "type": "long double",
+            "size": 16,
+            "class": "Float"
+        },
+        "6e32a5dda46ad3be2aa32ad15f363f31": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            }
+        },
+        "23c8dbaade46c0452e1e8a42755e7087": {
+            "type": "unsigned int",
+            "size": 4,
+            "class": "Integer"
+        },
+        "5334a9f04e7a1cb040918e237e137024": {
+            "name": "pcre_uint32",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned int",
+                "size": 4,
+                "class": "Integer"
+            },
+            "size": 4
+        },
+        "a85abca87f82556bb3bf64d655c510ee": {
+            "type": "5334a9f04e7a1cb040918e237e137024"
+        },
+        "6dccf0310c4ad89460bb2ac6413c8818": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memcpy"
+        },
+        "dbef5bff425a8e631e2bc5fba7cc20e6": {
+            "type": "char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "f338f96b6ffc0f79bcb5503767d6cbef": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "userdata"
+        },
+        "4bd084b078f381704ae48a099cdbc36b": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "0da927e0d14bf52f25b6b98354ac587b"
+            },
+            "name": "pcre_malloc"
+        },
+        "95bb90ea69f1562e09eca2124a61da2b": {
+            "type": "858d463d6ce7fdb201f9b2b308df3201"
+        },
+        "0eda2e2e55410d273f7dc06c4b1a527d": {
+            "type": "short unsigned int",
+            "size": 2,
+            "class": "Integer"
+        },
+        "a7567fe5ec6588c1868059e9d8a1c74d": {
+            "name": "pcre_uint16",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "short unsigned int",
+                "size": 2,
+                "class": "Integer"
+            },
+            "size": 2
+        },
+        "bdbe3e23fa9601f300a36e8c3b8db69e": {
+            "type": "a7567fe5ec6588c1868059e9d8a1c74d"
+        },
+        "a498e89fc4dcc4c7b1a08929c64a3c63": {
+            "name": "ERR21",
+            "size": 0,
+            "type": "094f321fd5bb8d08c33f220ea53625d9",
+            "class": "Enum"
+        },
+        "5d90a635673cc57f3b149148c66da16a": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "d915d482818bc16287f636e3b3f16416"
+            },
+            "name": "flag"
+        },
+        "0f65cf436719ea5cf1b494e0316e4bda": {
+            "type": "5d90a635673cc57f3b149148c66da16a"
+        },
+        "62e1b3f06848be367db98a73d70e63ac": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "memset"
+        },
+        "9f817ad055cb2f61400a63bfe45da245": {
+            "class": "Pointer",
+            "size": 8,
+            "underlying_type": {
+                "type": "4fc7ba059a1711e8c26bd491510ea170"
+            },
+            "name": "__dest"
+        },
+        "4daddbf38a6c492eda762068980f188d": {
+            "name": "pcre_uchar",
+            "class": "TypeDef",
+            "underlying_type": {
+                "type": "unsigned char",
+                "size": 1,
+                "class": "Integer"
+            },
+            "size": 1
+        },
+        "e5cd6cd12a33c9993ba99d95db8f4ce7": {
+            "type": "signed char",
+            "size": 1,
+            "class": "Integer"
+        },
+        "9e523abcb641e20d5a770e84c6fe1bfa": {
+            "name": "ucp_P",
+            "size": 0,
+            "type": "094f321fd5bb8d08c33f220ea53625d9",
+            "class": "Enum"
+        }
+    }
+}
